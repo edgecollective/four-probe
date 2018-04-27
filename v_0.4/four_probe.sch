@@ -2011,9 +2011,9 @@ Wire Wire Line
 Connection ~ 6800 9700
 Wire Wire Line
 	2400 7950 2400 10150
-Text Notes 1000 8300 0    100  ~ 0
+Text Notes 2550 9950 0    100  ~ 0
 CURRENT SENSE
-Text Notes 8500 9600 0    100  ~ 0
+Text Notes 8850 9850 0    100  ~ 0
 CURRENT SENSE
 Text Notes 8950 2600 0    100  ~ 0
 VOLTAGE SENSE, 1::2
@@ -2044,4 +2044,6 @@ Wire Wire Line
 Wire Wire Line
 	9900 8100 10200 8100
 Connection ~ 10200 8100
+Text Notes 13200 9700 0    200  ~ 0
+Four Probe v_0.4
 $EndSCHEMATC
