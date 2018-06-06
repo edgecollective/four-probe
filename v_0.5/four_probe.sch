@@ -1845,12 +1845,12 @@ PT4
 $Comp
 L Conn_01x04_Female JP1
 U 1 1 5AF5542B
-P 3400 5800
-F 0 "JP1" H 3400 6000 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 3400 5500 50  0000 C CNN
-F 2 "" H 3400 5800 50  0001 C CNN
-F 3 "" H 3400 5800 50  0001 C CNN
-	1    3400 5800
+P 3500 5950
+F 0 "JP1" H 3500 6150 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 3500 5650 50  0000 C CNN
+F 2 "" H 3500 5950 50  0001 C CNN
+F 3 "" H 3500 5950 50  0001 C CNN
+	1    3500 5950
 	1    0    0    -1  
 $EndComp
 Text GLabel 4200 4900 2    60   Input ~ 0
@@ -1861,13 +1861,13 @@ Text GLabel 4400 6300 0    60   Input ~ 0
 P3
 Text GLabel 4400 5600 0    60   Input ~ 0
 P3
-Text GLabel 3200 6000 0    60   Input ~ 0
+Text GLabel 3300 6150 0    60   Input ~ 0
 PT4
-Text GLabel 3200 5900 0    60   Input ~ 0
+Text GLabel 3300 6050 0    60   Input ~ 0
 PT3
-Text GLabel 3200 5800 0    60   Input ~ 0
+Text GLabel 3300 5950 0    60   Input ~ 0
 PT2
-Text GLabel 3200 5700 0    60   Input ~ 0
+Text GLabel 3300 5850 0    60   Input ~ 0
 PT1
 Text GLabel 6200 5350 2    60   Input ~ 0
 V23A
@@ -1972,28 +1972,28 @@ F 3 "" H 13900 5300 50  0001 C CNN
 $EndComp
 Text GLabel 13700 5400 0    60   Input ~ 0
 TIC
-Text GLabel 13700 5200 0    60   Input ~ 0
+Text GLabel 13300 5200 0    60   Input ~ 0
 TIA
-Text GLabel 13700 5300 0    60   Input ~ 0
+Text GLabel 13500 5300 0    60   Input ~ 0
 TIB
 $Comp
 L Conn_01x04_Female JVIN1
 U 1 1 5B018DB6
-P 4800 8500
-F 0 "JVIN1" H 4800 8700 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 4800 8200 50  0000 C CNN
-F 2 "" H 4800 8500 50  0001 C CNN
-F 3 "" H 4800 8500 50  0001 C CNN
-	1    4800 8500
+P 1900 6950
+F 0 "JVIN1" H 1900 7150 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 1900 6650 50  0000 C CNN
+F 2 "" H 1900 6950 50  0001 C CNN
+F 3 "" H 1900 6950 50  0001 C CNN
+	1    1900 6950
 	1    0    0    -1  
 $EndComp
-Text GLabel 4600 8400 0    60   Input ~ 0
+Text GLabel 1700 6850 0    60   Input ~ 0
 VIN1
-Text GLabel 4600 8500 0    60   Input ~ 0
+Text GLabel 1700 6950 0    60   Input ~ 0
 VIN2
-Text GLabel 4600 8600 0    60   Input ~ 0
+Text GLabel 1700 7050 0    60   Input ~ 0
 VIN3
-Text GLabel 4600 8700 0    60   Input ~ 0
+Text GLabel 1700 7150 0    60   Input ~ 0
 VIN3
 Text GLabel 4000 9600 0    60   Input ~ 0
 VIN3
@@ -2002,17 +2002,17 @@ VIN4
 $Comp
 L Conn_01x02_Female JPWM1
 U 1 1 5B023455
-P 2400 8300
-F 0 "JPWM1" H 2400 8400 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 2400 8100 50  0000 C CNN
-F 2 "" H 2400 8300 50  0001 C CNN
-F 3 "" H 2400 8300 50  0001 C CNN
-	1    2400 8300
+P 1950 7900
+F 0 "JPWM1" H 1950 8000 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 1950 7700 50  0000 C CNN
+F 2 "" H 1950 7900 50  0001 C CNN
+F 3 "" H 1950 7900 50  0001 C CNN
+	1    1950 7900
 	1    0    0    -1  
 $EndComp
-Text GLabel 2200 8300 0    60   Input ~ 0
+Text GLabel 1750 7900 0    60   Input ~ 0
 PWM1
-Text GLabel 2200 8400 0    60   Input ~ 0
+Text GLabel 1750 8000 0    60   Input ~ 0
 PWM2
 Wire Wire Line
 	7250 4900 7250 6650
@@ -2448,4 +2448,14 @@ Wire Wire Line
 Wire Wire Line
 	4500 6300 4400 6300
 Connection ~ 4500 6550
+Wire Wire Line
+	13300 5200 13700 5200
+Wire Wire Line
+	13500 5300 13700 5300
+Text Notes 1250 7650 0    98   ~ 0
+PWM Inputs
+Text Notes 1200 6550 0    98   ~ 0
+Voltage Inputs
+Text Notes 3050 5650 0    98   ~ 0
+Probes
 $EndSCHEMATC
