@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name four_probe-rescue)(type Legacy)(uri ${KIPRJMOD}/four_probe-rescue.lib)(options "")(descr ""))
+  (lib (name ad8534)(type Legacy)(uri ${KIPRJMOD}/ad8534.lib)(options "")(descr ""))
+  (lib (name adg1212)(type Legacy)(uri ${KIPRJMOD}/adg1212.lib)(options "")(descr ""))
+  (lib (name adg704)(type Legacy)(uri ${KIPRJMOD}/adg704.lib)(options "")(descr ""))
+)
