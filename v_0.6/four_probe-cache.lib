@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Conn_01x02_Female
+# Connector_Conn_01x02_Female
 #
-DEF Connector:Conn_01x02_Female J 0 40 Y N 1 F N
+DEF Connector_Conn_01x02_Female J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector:Conn_01x02_Female" 0 -200 50 H V C CNN
+F1 "Connector_Conn_01x02_Female" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -21,11 +21,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x13_Counter_Clockwise
+# Connector_Generic_Conn_02x13_Counter_Clockwise
 #
-DEF Connector_Generic:Conn_02x13_Counter_Clockwise J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x13_Counter_Clockwise J 0 40 Y N 1 F N
 F0 "J" 50 700 50 H V C CNN
-F1 "Connector_Generic:Conn_02x13_Counter_Clockwise" 50 -700 50 H V C CNN
+F1 "Connector_Generic_Conn_02x13_Counter_Clockwise" 50 -700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -88,11 +88,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DG421LE:DG421LE
+# DG421LE_DG421LE
 #
-DEF DG421LE:DG421LE U 0 40 Y Y 1 F N
+DEF DG421LE_DG421LE U 0 40 Y Y 1 F N
 F0 "U" 0 550 60 H V C CNN
-F1 "DG421LE:DG421LE" 0 -550 60 H V C CNN
+F1 "DG421LE_DG421LE" 0 -550 60 H V C CNN
 F2 "" 100 -100 60 H I C CNN
 F3 "" 100 -100 60 H I C CNN
 DRAW
@@ -116,11 +116,11 @@ X IN3 9 350 -350 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# adg704:ADG704
+# adg704_ADG704
 #
-DEF adg704:ADG704 U 0 40 Y Y 1 F N
+DEF adg704_ADG704 U 0 40 Y Y 1 F N
 F0 "U" 0 -300 60 H V C CNN
-F1 "adg704:ADG704" 0 650 60 H V C CNN
+F1 "adg704_ADG704" 0 650 60 H V C CNN
 F2 "" 0 -100 60 H I C CNN
 F3 "" 0 -100 60 H I C CNN
 DRAW
@@ -138,11 +138,11 @@ X S2 9 450 350 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# four_probe-rescue:AD623
+# four_probe-rescue_AD623
 #
-DEF four_probe-rescue:AD623 U 0 20 Y Y 1 F N
+DEF four_probe-rescue_AD623 U 0 20 Y Y 1 F N
 F0 "U" 150 300 50 H V C CNN
-F1 "four_probe-rescue:AD623" 150 200 50 H V C CNN
+F1 "four_probe-rescue_AD623" 150 200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -162,11 +162,11 @@ X Rg 8 -400 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# four_probe-rescue:C
+# four_probe-rescue_C
 #
-DEF four_probe-rescue:C C 0 10 N Y 1 F N
+DEF four_probe-rescue_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "four_probe-rescue:C" 25 -100 50 H V L CNN
+F1 "four_probe-rescue_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -180,11 +180,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# four_probe-rescue:Conn_01x02
+# four_probe-rescue_Conn_01x02
 #
-DEF four_probe-rescue:Conn_01x02 J 0 40 Y N 1 F N
+DEF four_probe-rescue_Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "four_probe-rescue:Conn_01x02" 0 -200 50 H V C CNN
+F1 "four_probe-rescue_Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -204,11 +204,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# four_probe-rescue:Conn_01x04_Female
+# four_probe-rescue_Conn_01x04_Female
 #
-DEF four_probe-rescue:Conn_01x04_Female J 0 40 Y N 1 F N
+DEF four_probe-rescue_Conn_01x04_Female J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "four_probe-rescue:Conn_01x04_Female" 0 -300 50 H V C CNN
+F1 "four_probe-rescue_Conn_01x04_Female" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -233,11 +233,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# four_probe-rescue:LMC6482
+# four_probe-rescue_LMC6482
 #
-DEF four_probe-rescue:LMC6482 U 0 20 Y Y 2 F N
+DEF four_probe-rescue_LMC6482 U 0 20 Y Y 2 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "four_probe-rescue:LMC6482" 0 -200 50 H V L CNN
+F1 "four_probe-rescue_LMC6482" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -266,11 +266,11 @@ X ~ 7 300 0 100 L 50 50 2 1 O
 ENDDRAW
 ENDDEF
 #
-# four_probe-rescue:LMC6484
+# four_probe-rescue_LMC6484
 #
-DEF four_probe-rescue:LMC6484 U 0 20 Y Y 4 F N
+DEF four_probe-rescue_LMC6484 U 0 20 Y Y 4 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "four_probe-rescue:LMC6484" 0 -200 50 H V L CNN
+F1 "four_probe-rescue_LMC6484" 0 -200 50 H V L CNN
 F2 "" -50 100 50 H I C CNN
 F3 "" 50 200 50 H I C CNN
 $FPLIST
@@ -299,11 +299,11 @@ X ~ 14 300 0 100 L 50 50 4 1 O
 ENDDRAW
 ENDDEF
 #
-# four_probe-rescue:R
+# four_probe-rescue_R
 #
-DEF four_probe-rescue:R R 0 0 N Y 1 F N
+DEF four_probe-rescue_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "four_probe-rescue:R" 0 0 50 V V C CNN
+F1 "four_probe-rescue_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -317,11 +317,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -330,11 +330,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GNDREF
+# power_GNDREF
 #
-DEF power:GNDREF #PWR 0 0 Y Y 1 F P
+DEF power_GNDREF #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GNDREF" 0 -150 50 H V C CNN
+F1 "power_GNDREF" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -346,11 +346,11 @@ X GNDREF 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:VCC
+# power_VCC
 #
-DEF power:VCC #PWR 0 0 Y Y 1 F P
+DEF power_VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:VCC" 0 150 50 H V C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
