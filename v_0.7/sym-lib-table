@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name four_probe-rescue)(type Legacy)(uri ${KIPRJMOD}/four_probe-rescue.lib)(options "")(descr ""))
+  (lib (name ad8534)(type Legacy)(uri ${KIPRJMOD}/ad8534.lib)(options "")(descr ""))
+  (lib (name adg1212)(type Legacy)(uri ${KIPRJMOD}/adg1212.lib)(options "")(descr ""))
+  (lib (name adg704)(type Legacy)(uri ${KIPRJMOD}/adg704.lib)(options "")(descr ""))
+  (lib (name dg418le)(type Legacy)(uri /home/dwblair/gitwork/four-probe/v_0.6/dg418le.lib)(options "")(descr ""))
+  (lib (name DG418LE)(type Legacy)(uri /home/dwblair/gitwork/four-probe/v_0.6/DG418LE.lib)(options "")(descr ""))
+  (lib (name testy)(type Legacy)(uri /home/dwblair/gitwork/four-probe/v_0.6/testy.lib)(options "")(descr ""))
+  (lib (name dg412le)(type Legacy)(uri /home/dwblair/gitwork/four-probe/dg412le.lib)(options "")(descr ""))
+  (lib (name DG421LE)(type Legacy)(uri /home/dwblair/gitwork/four-probe/v_0.6/DG421LE.lib)(options "")(descr ""))
+)
