@@ -1848,7 +1848,7 @@ VIN2
 Text GLabel 13150 2700 0    60   Input ~ 0
 VIN3
 Text GLabel 13150 2800 0    60   Input ~ 0
-VIN3
+VIN4
 Text GLabel 4000 9600 0    60   Input ~ 0
 VIN3
 Text GLabel 4950 9600 2    60   Input ~ 0

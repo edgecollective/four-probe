@@ -8,4 +8,5 @@
   (lib (name testy)(type Legacy)(uri /home/dwblair/gitwork/four-probe/v_0.6/testy.lib)(options "")(descr ""))
   (lib (name dg412le)(type Legacy)(uri /home/dwblair/gitwork/four-probe/dg412le.lib)(options "")(descr ""))
   (lib (name DG421LE)(type Legacy)(uri /home/dwblair/gitwork/four-probe/v_0.6/DG421LE.lib)(options "")(descr ""))
+  (lib (name adg1211)(type Legacy)(uri /home/dwblair/gitwork/four-probe/v_0.7/adg1211.lib)(options "")(descr ""))
 )

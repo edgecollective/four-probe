@@ -2524,4 +2524,26 @@ Wire Wire Line
 Connection ~ 7250 2100
 Wire Wire Line
 	7250 2100 7250 2950
+$Comp
+L Analog_Switch:ADG733BRU U?
+U 1 1 5CEFA9A2
+P -2100 450
+F 0 "U?" H -2100 692 50  0000 C CNN
+F 1 "ADG733BRU" H -2100 601 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H -2100 450 50  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H -2100 450 50  0001 C CNN
+	1    -2100 450 
+	1    0    0    -1  
+$EndComp
+$Comp
+L adg1212:ADG1212 U?
+U 1 1 5CEFAB82
+P -650 1300
+F 0 "U?" H -675 2087 60  0000 C CNN
+F 1 "ADG1212" H -675 1981 60  0000 C CNN
+F 2 "" H -650 1200 60  0001 C CNN
+F 3 "" H -650 1200 60  0001 C CNN
+	1    -650 1300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
