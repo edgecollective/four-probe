@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:four_probe-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:VCC #PWR045
+L four_probe-rescue:VCC-power #PWR045
 U 1 1 5AC561A1
 P 11950 7550
 F 0 "#PWR045" H 11950 7400 50  0001 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 11950 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR046
+L four_probe-rescue:GND-power #PWR046
 U 1 1 5AC561C1
 P 12000 6850
 F 0 "#PWR046" H 12000 6600 50  0001 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 12000 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR042
+L four_probe-rescue:GNDREF-power #PWR042
 U 1 1 5AC56327
 P 11500 7400
 F 0 "#PWR042" H 11500 7150 50  0001 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 2050 2100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR07
+L four_probe-rescue:GND-power #PWR07
 U 1 1 5AC577D8
 P 2050 2250
 F 0 "#PWR07" H 2050 2000 50  0001 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 2050 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR01
+L four_probe-rescue:VCC-power #PWR01
 U 1 1 5AC58CD2
 P 12700 2300
 F 0 "#PWR01" H 12700 2150 50  0001 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 12700 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L four_probe-rescue:GND-power #PWR02
 U 1 1 5AC58D11
 P 12700 2400
 F 0 "#PWR02" H 12700 2150 50  0001 C CNN
@@ -105,7 +105,7 @@ $EndComp
 Text Notes 750  2950 0    98   ~ 0
 Input Signal (DAC or GPIO)
 $Comp
-L power:VCC #PWR040
+L four_probe-rescue:VCC-power #PWR040
 U 1 1 5AC5C628
 P 11350 1150
 F 0 "#PWR040" H 11350 1000 50  0001 C CNN
@@ -116,7 +116,7 @@ F 3 "" H 11350 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR041
+L four_probe-rescue:GND-power #PWR041
 U 1 1 5AC5C65D
 P 11350 1450
 F 0 "#PWR041" H 11350 1200 50  0001 C CNN
@@ -151,7 +151,7 @@ F 3 "" H 5100 5800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VCC #PWR017
+L four_probe-rescue:VCC-power #PWR017
 U 1 1 5ACBF7E2
 P 5500 5500
 F 0 "#PWR017" H 5500 5350 50  0001 C CNN
@@ -173,7 +173,7 @@ F 3 "" H 7100 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDREF #PWR019
+L four_probe-rescue:GNDREF-power #PWR019
 U 1 1 5ACC1687
 P 5500 6650
 F 0 "#PWR019" H 5500 6400 50  0001 C CNN
@@ -184,7 +184,7 @@ F 3 "" H 5500 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR023
+L four_probe-rescue:GND-power #PWR023
 U 1 1 5ACC17A7
 P 5900 7000
 F 0 "#PWR023" H 5900 6750 50  0001 C CNN
@@ -195,7 +195,7 @@ F 3 "" H 5900 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR022
+L four_probe-rescue:VCC-power #PWR022
 U 1 1 5ACC1C32
 P 5900 6400
 F 0 "#PWR022" H 5900 6250 50  0001 C CNN
@@ -206,7 +206,7 @@ F 3 "" H 5900 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR018
+L four_probe-rescue:GND-power #PWR018
 U 1 1 5ACC2EEB
 P 5500 6100
 F 0 "#PWR018" H 5500 5850 50  0001 C CNN
@@ -256,7 +256,7 @@ $EndComp
 Text Notes 7350 6450 0    60   ~ 0
 Switch for -VEXC
 $Comp
-L power:GND #PWR038
+L four_probe-rescue:GND-power #PWR038
 U 1 1 5ACCD61F
 P 9300 7050
 F 0 "#PWR038" H 9300 6800 50  0001 C CNN
@@ -267,7 +267,7 @@ F 3 "" H 9300 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR037
+L four_probe-rescue:VCC-power #PWR037
 U 1 1 5ACCD850
 P 9300 6450
 F 0 "#PWR037" H 9300 6300 50  0001 C CNN
@@ -289,7 +289,7 @@ F 3 "" H 9400 7450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR064
+L four_probe-rescue:GND-power #PWR064
 U 1 1 5ACD153C
 P 15000 6700
 F 0 "#PWR064" H 15000 6450 50  0001 C CNN
@@ -300,7 +300,7 @@ F 3 "" H 15000 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR063
+L four_probe-rescue:VCC-power #PWR063
 U 1 1 5ACD1542
 P 15000 6100
 F 0 "#PWR063" H 15000 5950 50  0001 C CNN
@@ -333,7 +333,7 @@ F 3 "" H 8650 6800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDREF #PWR030
+L four_probe-rescue:GNDREF-power #PWR030
 U 1 1 5ACDABCC
 P 8650 6950
 F 0 "#PWR030" H 8650 6700 50  0001 C CNN
@@ -355,7 +355,7 @@ F 3 "" H 14400 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDREF #PWR059
+L four_probe-rescue:GNDREF-power #PWR059
 U 1 1 5ACDB23E
 P 14400 6600
 F 0 "#PWR059" H 14400 6350 50  0001 C CNN
@@ -377,7 +377,7 @@ F 3 "" H 15100 7250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR09
+L four_probe-rescue:GND-power #PWR09
 U 1 1 5ACF0950
 P 2550 2350
 F 0 "#PWR09" H 2550 2100 50  0001 C CNN
@@ -388,7 +388,7 @@ F 3 "" H 2550 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR08
+L four_probe-rescue:VCC-power #PWR08
 U 1 1 5ACF09BE
 P 2550 1750
 F 0 "#PWR08" H 2550 1600 50  0001 C CNN
@@ -412,7 +412,7 @@ $EndComp
 Text Notes 7400 4750 0    60   ~ 0
 Switch for +VEXC
 $Comp
-L power:GND #PWR036
+L four_probe-rescue:GND-power #PWR036
 U 1 1 5AE38EEE
 P 9300 5300
 F 0 "#PWR036" H 9300 5050 50  0001 C CNN
@@ -423,7 +423,7 @@ F 3 "" H 9300 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR035
+L four_probe-rescue:VCC-power #PWR035
 U 1 1 5AE38EF4
 P 9300 4700
 F 0 "#PWR035" H 9300 4550 50  0001 C CNN
@@ -467,7 +467,7 @@ F 3 "" H 8650 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDREF #PWR029
+L four_probe-rescue:GNDREF-power #PWR029
 U 1 1 5AE38F0E
 P 8650 5200
 F 0 "#PWR029" H 8650 4950 50  0001 C CNN
@@ -489,7 +489,7 @@ F 3 "" H 14100 8050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR066
+L four_probe-rescue:GND-power #PWR066
 U 1 1 5AE3D003
 P 15000 8450
 F 0 "#PWR066" H 15000 8200 50  0001 C CNN
@@ -500,7 +500,7 @@ F 3 "" H 15000 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR065
+L four_probe-rescue:VCC-power #PWR065
 U 1 1 5AE3D009
 P 15000 7850
 F 0 "#PWR065" H 15000 7700 50  0001 C CNN
@@ -533,7 +533,7 @@ F 3 "" H 14400 8200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDREF #PWR060
+L four_probe-rescue:GNDREF-power #PWR060
 U 1 1 5AE3D01C
 P 14400 8350
 F 0 "#PWR060" H 14400 8100 50  0001 C CNN
@@ -554,14 +554,6 @@ F 3 "" H 15100 9000 50  0001 C CNN
 	1    15100 9000
 	0    1    1    0   
 $EndComp
-Text GLabel 7250 4900 2    60   Input ~ 0
-PWM1-S
-Text GLabel 8200 4900 0    60   Input ~ 0
-PWM1-D
-Text GLabel 7250 6650 2    60   Input ~ 0
-PWM2-S
-Text GLabel 8200 6650 0    60   Input ~ 0
-PWM2-D
 $Comp
 L adg704:ADG704 U8
 U 1 1 5AE548AA
@@ -574,7 +566,7 @@ F 3 "https://www.digikey.com/product-detail/en/analog-devices-inc/ADG704BRMZ-REE
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR011
+L four_probe-rescue:GNDREF-power #PWR011
 U 1 1 5ACF137B
 P 3300 2050
 F 0 "#PWR011" H 3300 1800 50  0001 C CNN
@@ -585,7 +577,7 @@ F 3 "" H 3300 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L four_probe-rescue:GND-power #PWR05
 U 1 1 5AE561F1
 P 1800 3900
 F 0 "#PWR05" H 1800 3650 50  0001 C CNN
@@ -596,7 +588,7 @@ F 3 "" H 1800 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR04
+L four_probe-rescue:VCC-power #PWR04
 U 1 1 5AE561F7
 P 1800 3300
 F 0 "#PWR04" H 1800 3150 50  0001 C CNN
@@ -618,7 +610,7 @@ F 3 "" H 5000 2100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDREF #PWR016
+L four_probe-rescue:GNDREF-power #PWR016
 U 1 1 5AE605AD
 P 5500 2950
 F 0 "#PWR016" H 5500 2700 50  0001 C CNN
@@ -629,7 +621,7 @@ F 3 "" H 5500 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L four_probe-rescue:GND-power #PWR021
 U 1 1 5AE605B3
 P 5900 3300
 F 0 "#PWR021" H 5900 3050 50  0001 C CNN
@@ -640,7 +632,7 @@ F 3 "" H 5900 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR020
+L four_probe-rescue:VCC-power #PWR020
 U 1 1 5AE605B9
 P 5900 2700
 F 0 "#PWR020" H 5900 2550 50  0001 C CNN
@@ -651,7 +643,7 @@ F 3 "" H 5900 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR015
+L four_probe-rescue:GND-power #PWR015
 U 1 1 5AE605BF
 P 5500 2400
 F 0 "#PWR015" H 5500 2150 50  0001 C CNN
@@ -686,7 +678,7 @@ $EndComp
 Text Notes 7400 2750 0    60   ~ 0
 Switch for -VEXC
 $Comp
-L power:GND #PWR034
+L four_probe-rescue:GND-power #PWR034
 U 1 1 5AE62687
 P 9300 3350
 F 0 "#PWR034" H 9300 3100 50  0001 C CNN
@@ -697,7 +689,7 @@ F 3 "" H 9300 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR033
+L four_probe-rescue:VCC-power #PWR033
 U 1 1 5AE6268D
 P 9300 2750
 F 0 "#PWR033" H 9300 2600 50  0001 C CNN
@@ -741,7 +733,7 @@ F 3 "" H 8650 3100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDREF #PWR028
+L four_probe-rescue:GNDREF-power #PWR028
 U 1 1 5AE626A6
 P 8650 3250
 F 0 "#PWR028" H 8650 3000 50  0001 C CNN
@@ -765,7 +757,7 @@ $EndComp
 Text Notes 7350 1000 0    60   ~ 0
 Switch for +VEXC
 $Comp
-L power:GND #PWR032
+L four_probe-rescue:GND-power #PWR032
 U 1 1 5AE626B9
 P 9300 1600
 F 0 "#PWR032" H 9300 1350 50  0001 C CNN
@@ -776,7 +768,7 @@ F 3 "" H 9300 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR031
+L four_probe-rescue:VCC-power #PWR031
 U 1 1 5AE626BF
 P 9300 1000
 F 0 "#PWR031" H 9300 850 50  0001 C CNN
@@ -820,7 +812,7 @@ F 3 "" H 8650 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDREF #PWR027
+L four_probe-rescue:GNDREF-power #PWR027
 U 1 1 5AE626D8
 P 8650 1500
 F 0 "#PWR027" H 8650 1250 50  0001 C CNN
@@ -830,22 +822,6 @@ F 3 "" H 8650 1500 50  0001 C CNN
 	1    8650 1500
 	1    0    0    -1  
 $EndComp
-Text GLabel 7250 1200 2    60   Input ~ 0
-PWM1-S
-Text GLabel 8200 1200 0    60   Input ~ 0
-PWM1-D
-Text GLabel 7250 2950 2    60   Input ~ 0
-PWM2-S
-Text GLabel 8200 2950 0    60   Input ~ 0
-PWM2-D
-Text GLabel 13000 6300 2    60   Input ~ 0
-PWM1-S
-Text GLabel 13950 6300 0    60   Input ~ 0
-PWM1-D
-Text GLabel 13000 8050 2    60   Input ~ 0
-PWM2-S
-Text GLabel 13950 8050 0    60   Input ~ 0
-PWM2-D
 Text Notes 11300 5650 0    60   ~ 0
 Select\nGain
 $Comp
@@ -1001,7 +977,7 @@ TG1
 Text GLabel 10050 9550 2    60   Input ~ 0
 TG4
 $Comp
-L power:VCC #PWR039
+L four_probe-rescue:VCC-power #PWR039
 U 1 1 5AE8EC03
 P 10550 9700
 F 0 "#PWR039" H 10550 9550 50  0001 C CNN
@@ -1016,7 +992,7 @@ MUXGA
 Text GLabel 10050 9100 2    60   Input ~ 0
 MUXGB
 $Comp
-L power:GND #PWR026
+L four_probe-rescue:GND-power #PWR026
 U 1 1 5AE902D1
 P 8550 9400
 F 0 "#PWR026" H 8550 9150 50  0001 C CNN
@@ -1048,7 +1024,7 @@ RL1
 Text GLabel 7550 9550 2    60   Input ~ 0
 RL4
 $Comp
-L power:VCC #PWR025
+L four_probe-rescue:VCC-power #PWR025
 U 1 1 5AE974CD
 P 8050 9700
 F 0 "#PWR025" H 8050 9550 50  0001 C CNN
@@ -1063,7 +1039,7 @@ MUXRA
 Text GLabel 7550 9100 2    60   Input ~ 0
 MUXRB
 $Comp
-L power:GND #PWR024
+L four_probe-rescue:GND-power #PWR024
 U 1 1 5AE974D9
 P 6050 9400
 F 0 "#PWR024" H 6050 9150 50  0001 C CNN
@@ -1094,14 +1070,12 @@ F 3 "" H 4500 9550 60  0001 C CNN
 	1    4500 9650
 	1    0    0    -1  
 $EndComp
-Text GLabel 4950 9450 2    60   Input ~ 0
-VIND
 Text GLabel 4950 9300 2    60   Input ~ 0
 VIN2
 Text GLabel 4000 9300 0    60   Input ~ 0
 VIN1
 $Comp
-L power:VCC #PWR013
+L four_probe-rescue:VCC-power #PWR013
 U 1 1 5AEAFF08
 P 5450 9750
 F 0 "#PWR013" H 5450 9600 50  0001 C CNN
@@ -1116,7 +1090,7 @@ MUXVA
 Text GLabel 4950 9150 2    60   Input ~ 0
 MUXVB
 $Comp
-L power:GND #PWR012
+L four_probe-rescue:GND-power #PWR012
 U 1 1 5AEAFF14
 P 3450 9450
 F 0 "#PWR012" H 3450 9200 50  0001 C CNN
@@ -1126,8 +1100,6 @@ F 3 "" H 3450 9450 50  0001 C CNN
 	1    3450 9450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1500 3500 0    60   Input ~ 0
-VIND
 Text Notes 6600 10300 0    98   ~ 0
 MUX: R_Limiting
 Text Notes 1600 10350 0    98   ~ 0
@@ -1214,7 +1186,7 @@ Power Input
 Text Notes 11200 850  0    100  ~ 0
 Decoupling
 $Comp
-L power:VCC #PWR06
+L four_probe-rescue:VCC-power #PWR06
 U 1 1 5AE9A1A3
 P 2050 1650
 F 0 "#PWR06" H 2050 1500 50  0001 C CNN
@@ -1324,7 +1296,7 @@ F 3 "" H 15600 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR070
+L four_probe-rescue:GND-power #PWR070
 U 1 1 5AF034B7
 P 15450 5350
 F 0 "#PWR070" H 15450 5100 50  0001 C CNN
@@ -1335,7 +1307,7 @@ F 3 "" H 15450 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR069
+L four_probe-rescue:VCC-power #PWR069
 U 1 1 5AF03DA5
 P 15450 4600
 F 0 "#PWR069" H 15450 4450 50  0001 C CNN
@@ -1370,7 +1342,7 @@ $EndComp
 Text Notes 14900 4300 0    70   ~ 0
 (unused quad op-amp)
 $Comp
-L power:VCC #PWR043
+L four_probe-rescue:VCC-power #PWR043
 U 1 1 5AF0A474
 P 11800 1150
 F 0 "#PWR043" H 11800 1000 50  0001 C CNN
@@ -1381,7 +1353,7 @@ F 3 "" H 11800 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR044
+L four_probe-rescue:GND-power #PWR044
 U 1 1 5AF0A47A
 P 11800 1450
 F 0 "#PWR044" H 11800 1200 50  0001 C CNN
@@ -1403,7 +1375,7 @@ F 3 "" H 11800 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR047
+L four_probe-rescue:VCC-power #PWR047
 U 1 1 5AF0A5FC
 P 12200 1150
 F 0 "#PWR047" H 12200 1000 50  0001 C CNN
@@ -1414,7 +1386,7 @@ F 3 "" H 12200 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR048
+L four_probe-rescue:GND-power #PWR048
 U 1 1 5AF0A602
 P 12200 1450
 F 0 "#PWR048" H 12200 1200 50  0001 C CNN
@@ -1436,7 +1408,7 @@ F 3 "" H 12200 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR049
+L four_probe-rescue:VCC-power #PWR049
 U 1 1 5AF0A7D2
 P 12650 1150
 F 0 "#PWR049" H 12650 1000 50  0001 C CNN
@@ -1447,7 +1419,7 @@ F 3 "" H 12650 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR050
+L four_probe-rescue:GND-power #PWR050
 U 1 1 5AF0A7D8
 P 12650 1450
 F 0 "#PWR050" H 12650 1200 50  0001 C CNN
@@ -1469,7 +1441,7 @@ F 3 "" H 12650 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR051
+L four_probe-rescue:VCC-power #PWR051
 U 1 1 5AF0A7E4
 P 13050 1150
 F 0 "#PWR051" H 13050 1000 50  0001 C CNN
@@ -1480,7 +1452,7 @@ F 3 "" H 13050 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR052
+L four_probe-rescue:GND-power #PWR052
 U 1 1 5AF0A7EA
 P 13050 1450
 F 0 "#PWR052" H 13050 1200 50  0001 C CNN
@@ -1502,7 +1474,7 @@ F 3 "" H 13050 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR053
+L four_probe-rescue:VCC-power #PWR053
 U 1 1 5AF0BA64
 P 13450 1150
 F 0 "#PWR053" H 13450 1000 50  0001 C CNN
@@ -1513,7 +1485,7 @@ F 3 "" H 13450 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR054
+L four_probe-rescue:GND-power #PWR054
 U 1 1 5AF0BA6A
 P 13450 1450
 F 0 "#PWR054" H 13450 1200 50  0001 C CNN
@@ -1535,7 +1507,7 @@ F 3 "" H 13450 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR055
+L four_probe-rescue:VCC-power #PWR055
 U 1 1 5AF0BA76
 P 13900 1150
 F 0 "#PWR055" H 13900 1000 50  0001 C CNN
@@ -1546,7 +1518,7 @@ F 3 "" H 13900 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR056
+L four_probe-rescue:GND-power #PWR056
 U 1 1 5AF0BA7C
 P 13900 1450
 F 0 "#PWR056" H 13900 1200 50  0001 C CNN
@@ -1568,7 +1540,7 @@ F 3 "" H 13900 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR057
+L four_probe-rescue:VCC-power #PWR057
 U 1 1 5AF0BA88
 P 14300 1150
 F 0 "#PWR057" H 14300 1000 50  0001 C CNN
@@ -1579,7 +1551,7 @@ F 3 "" H 14300 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR058
+L four_probe-rescue:GND-power #PWR058
 U 1 1 5AF0BA8E
 P 14300 1450
 F 0 "#PWR058" H 14300 1200 50  0001 C CNN
@@ -1601,7 +1573,7 @@ F 3 "" H 14300 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR061
+L four_probe-rescue:VCC-power #PWR061
 U 1 1 5AF0BA9A
 P 14750 1150
 F 0 "#PWR061" H 14750 1000 50  0001 C CNN
@@ -1612,7 +1584,7 @@ F 3 "" H 14750 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR062
+L four_probe-rescue:GND-power #PWR062
 U 1 1 5AF0BAA0
 P 14750 1450
 F 0 "#PWR062" H 14750 1200 50  0001 C CNN
@@ -1634,7 +1606,7 @@ F 3 "" H 14750 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR067
+L four_probe-rescue:VCC-power #PWR067
 U 1 1 5AF0BAAC
 P 15150 1150
 F 0 "#PWR067" H 15150 1000 50  0001 C CNN
@@ -1645,7 +1617,7 @@ F 3 "" H 15150 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR068
+L four_probe-rescue:GND-power #PWR068
 U 1 1 5AF0BAB2
 P 15150 1450
 F 0 "#PWR068" H 15150 1200 50  0001 C CNN
@@ -1667,7 +1639,7 @@ F 3 "" H 15150 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR071
+L four_probe-rescue:VCC-power #PWR071
 U 1 1 5AF37FDA
 P 15650 1150
 F 0 "#PWR071" H 15650 1000 50  0001 C CNN
@@ -1678,7 +1650,7 @@ F 3 "" H 15650 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR072
+L four_probe-rescue:GND-power #PWR072
 U 1 1 5AF37FE0
 P 15650 1450
 F 0 "#PWR072" H 15650 1200 50  0001 C CNN
@@ -1700,7 +1672,7 @@ F 3 "" H 15650 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR073
+L four_probe-rescue:VCC-power #PWR073
 U 1 1 5AF37FEC
 P 16100 1150
 F 0 "#PWR073" H 16100 1000 50  0001 C CNN
@@ -1711,7 +1683,7 @@ F 3 "" H 16100 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR074
+L four_probe-rescue:GND-power #PWR074
 U 1 1 5AF37FF2
 P 16100 1450
 F 0 "#PWR074" H 16100 1200 50  0001 C CNN
@@ -1819,7 +1791,7 @@ F 3 "" H 4300 2250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VCC #PWR014
+L four_probe-rescue:VCC-power #PWR014
 U 1 1 5B00928F
 P 5500 1800
 F 0 "#PWR014" H 5500 1650 50  0001 C CNN
@@ -2371,62 +2343,6 @@ F 3 "" H 9450 1500 50  0001 C CNN
 	1    9400 1300
 	1    0    0    -1  
 $EndComp
-$Comp
-L DG421LE:DG421LE U7
-U 1 1 5BBCC1A0
-P 1950 9350
-F 0 "U7" H 1925 9987 60  0000 C CNN
-F 1 "DG421LE" H 1925 9881 60  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 2050 9250 60  0001 C CNN
-F 3 "" H 2050 9250 60  0001 C CNN
-	1    1950 9350
-	1    0    0    -1  
-$EndComp
-Text GLabel 1550 9000 0    60   Input ~ 0
-PWM1
-Text GLabel 1550 9100 0    60   Input ~ 0
-PWM1-D
-Text GLabel 1550 9200 0    60   Input ~ 0
-PWM1-S
-Text GLabel 1550 9500 0    60   Input ~ 0
-PWM2-S
-Text GLabel 1550 9600 0    60   Input ~ 0
-PWM2-D
-Text GLabel 1550 9700 0    60   Input ~ 0
-PWM2
-Wire Wire Line
-	1550 9300 750  9300
-Wire Wire Line
-	750  9300 750  9400
-Wire Wire Line
-	1550 9400 750  9400
-Wire Wire Line
-	750  9400 750  9500
-Connection ~ 750  9400
-$Comp
-L power:GND #PWR0101
-U 1 1 5BBF3BCE
-P 750 9500
-F 0 "#PWR0101" H 750 9250 50  0001 C CNN
-F 1 "GND" H 750 9350 50  0000 C CNN
-F 2 "" H 750 9500 50  0001 C CNN
-F 3 "" H 750 9500 50  0001 C CNN
-	1    750  9500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 9300 2500 9300
-$Comp
-L power:VCC #PWR0102
-U 1 1 5BC01121
-P 2500 9300
-F 0 "#PWR0102" H 2500 9150 50  0001 C CNN
-F 1 "VCC" H 2500 9450 50  0000 C CNN
-F 2 "" H 2500 9300 50  0001 C CNN
-F 3 "" H 2500 9300 50  0001 C CNN
-	1    2500 9300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13150 2300 12700 2300
 Wire Wire Line
@@ -2459,7 +2375,7 @@ MUXGA
 Text GLabel 13650 3100 2    60   Input ~ 0
 MUXGB
 $Comp
-L Connector:Conn_01x02_Female J2
+L four_probe-rescue:Conn_01x02_Female-Connector J2
 U 1 1 5BD45B2B
 P 4750 6250
 F 0 "J2" H 4644 5925 50  0000 C CNN
@@ -2470,7 +2386,7 @@ F 3 "~" H 4750 6250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x13_Counter_Clockwise J1
+L four_probe-rescue:Conn_02x13_Counter_Clockwise-Connector_Generic J1
 U 1 1 5BD469C1
 P 13350 2900
 F 0 "J1" H 13400 3717 50  0000 C CNN
@@ -2499,7 +2415,7 @@ Connection ~ 5000 5950
 Wire Wire Line
 	5000 5950 4900 5950
 $Comp
-L power:GNDREF #PWR0103
+L four_probe-rescue:GNDREF-power #PWR0103
 U 1 1 5BD6F7F4
 P 13650 3500
 F 0 "#PWR0103" H 13650 3250 50  0001 C CNN
@@ -2525,25 +2441,191 @@ Connection ~ 7250 2100
 Wire Wire Line
 	7250 2100 7250 2950
 $Comp
-L Analog_Switch:ADG733BRU U?
-U 1 1 5CEFA9A2
-P -2100 450
-F 0 "U?" H -2100 692 50  0000 C CNN
-F 1 "ADG733BRU" H -2100 601 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H -2100 450 50  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf" H -2100 450 50  0001 C CNN
-	1    -2100 450 
+L adg1211:adg1211 U7
+U 1 1 5D00E0DF
+P 7650 1500
+F 0 "U7" V 7703 1177 60  0000 R CNN
+F 1 "adg1211" V 7597 1177 60  0000 R CNN
+F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" V 7690 985 60  0001 C CNN
+F 3 "" V 7690 985 60  0001 C CNN
+	1    7650 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7250 1200 7650 1200
+Wire Wire Line
+	7850 1200 8200 1200
+$Comp
+L adg1211:adg1211 U7
+U 2 1 5D02E04A
+P 7650 3250
+F 0 "U7" V 7703 2927 60  0000 R CNN
+F 1 "adg1211" V 7597 2927 60  0000 R CNN
+F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" V 7690 2735 60  0001 C CNN
+F 3 "" V 7690 2735 60  0001 C CNN
+	2    7650 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7250 2950 7650 2950
+Text GLabel 7750 3950 0    60   Input ~ 0
+PWM2
+Wire Wire Line
+	7750 3550 7750 3950
+Wire Wire Line
+	8200 2950 7850 2950
+Text GLabel 7750 2350 0    60   Input ~ 0
+PWM1
+Wire Wire Line
+	7750 1800 7750 2350
+$Comp
+L adg1211:adg1211 U7
+U 3 1 5D0BA888
+P 7650 5200
+F 0 "U7" V 7703 4877 60  0000 R CNN
+F 1 "adg1211" V 7597 4877 60  0000 R CNN
+F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" V 7690 4685 60  0001 C CNN
+F 3 "" V 7690 4685 60  0001 C CNN
+	3    7650 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 4900 7250 4900
+Wire Wire Line
+	7850 4900 8200 4900
+Wire Wire Line
+	7750 5500 7750 5950
+Text GLabel 7750 5950 0    60   Input ~ 0
+PWM1
+$Comp
+L adg1211:adg1211 U7
+U 4 1 5D0F3435
+P 7650 6950
+F 0 "U7" V 7703 6627 60  0000 R CNN
+F 1 "adg1211" V 7597 6627 60  0000 R CNN
+F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" V 7690 6435 60  0001 C CNN
+F 3 "" V 7690 6435 60  0001 C CNN
+	4    7650 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 6650 7250 6650
+Wire Wire Line
+	7850 6650 8200 6650
+Wire Wire Line
+	7750 7250 7750 7650
+Text GLabel 7750 7650 0    60   Input ~ 0
+PWM2
+$Comp
+L adg1211:adg1211 U7
+U 5 1 5D138BBD
+P 1450 9400
+F 0 "U7" H 1450 9739 60  0000 C CNN
+F 1 "adg1211" H 1450 9633 60  0000 C CNN
+F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" V 1490 8885 60  0001 C CNN
+F 3 "" V 1490 8885 60  0001 C CNN
+	5    1450 9400
 	1    0    0    -1  
 $EndComp
 $Comp
-L adg1212:ADG1212 U?
-U 1 1 5CEFAB82
-P -650 1300
-F 0 "U?" H -675 2087 60  0000 C CNN
-F 1 "ADG1212" H -675 1981 60  0000 C CNN
-F 2 "" H -650 1200 60  0001 C CNN
-F 3 "" H -650 1200 60  0001 C CNN
-	1    -650 1300
+L four_probe-rescue:GND-power #PWR0101
+U 1 1 5D13A8DD
+P 950 9650
+F 0 "#PWR0101" H 950 9400 50  0001 C CNN
+F 1 "GND" H 950 9500 50  0000 C CNN
+F 2 "" H 950 9650 50  0001 C CNN
+F 3 "" H 950 9650 50  0001 C CNN
+	1    950  9650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1100 9500 950  9500
+Wire Wire Line
+	950  9500 950  9650
+$Comp
+L adg1211:adg1211 U11
+U 1 1 5D1D8240
+P 13350 6600
+F 0 "U11" V 13403 6277 60  0000 R CNN
+F 1 "adg1211" V 13297 6277 60  0000 R CNN
+F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" V 13390 6085 60  0001 C CNN
+F 3 "" V 13390 6085 60  0001 C CNN
+	1    13350 6600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 6300 13000 6300
+Wire Wire Line
+	13550 6300 13950 6300
+Wire Wire Line
+	13450 6900 13450 7150
+$Comp
+L adg1211:adg1211 U11
+U 2 1 5D214095
+P 13350 8350
+F 0 "U11" V 13403 8027 60  0000 R CNN
+F 1 "adg1211" V 13297 8027 60  0000 R CNN
+F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" V 13390 7835 60  0001 C CNN
+F 3 "" V 13390 7835 60  0001 C CNN
+	2    13350 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13350 8050 13000 8050
+Wire Wire Line
+	13550 8050 13950 8050
+Wire Wire Line
+	13450 8650 13450 9000
+$Comp
+L adg1211:adg1211 U11
+U 5 1 5D24FCD1
+P 2600 9400
+F 0 "U11" H 2600 9739 60  0000 C CNN
+F 1 "adg1211" H 2600 9633 60  0000 C CNN
+F 2 "digikey-footprints:TSSOP-16-1EP_W4.40mm" V 2640 8885 60  0001 C CNN
+F 3 "" V 2640 8885 60  0001 C CNN
+	5    2600 9400
+	1    0    0    -1  
+$EndComp
+Text GLabel 13450 7150 2    60   Input ~ 0
+PWM1
+Text GLabel 13450 9000 2    60   Input ~ 0
+PWM2
+Wire Wire Line
+	1100 9350 950  9350
+Wire Wire Line
+	950  9350 950  9500
+Connection ~ 950  9500
+Wire Wire Line
+	2250 9350 2100 9350
+Wire Wire Line
+	2100 9350 2100 9500
+Wire Wire Line
+	2100 9500 2250 9500
+Wire Wire Line
+	2100 9500 2100 9600
+Connection ~ 2100 9500
+$Comp
+L four_probe-rescue:GND-power #PWR0102
+U 1 1 5D33B4A3
+P 2100 9600
+F 0 "#PWR0102" H 2100 9350 50  0001 C CNN
+F 1 "GND" H 2100 9450 50  0000 C CNN
+F 2 "" H 2100 9600 50  0001 C CNN
+F 3 "" H 2100 9600 50  0001 C CNN
+	1    2100 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 9350 1850 9350
+Wire Wire Line
+	1850 9350 1850 9250
+Wire Wire Line
+	2950 9350 3050 9350
+Wire Wire Line
+	3050 9350 3050 9300
+Text GLabel 4950 9450 2    60   Input ~ 0
+VIND
+Text GLabel 1500 3500 0    60   Input ~ 0
+VIND
 $EndSCHEMATC
