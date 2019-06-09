@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADG733BRQ
+D Triple SPDT CMOS Analog Switch, 2.5Ohm Ron, QSOP-16
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf
+$ENDCMP
+#
+#End Doc Library
