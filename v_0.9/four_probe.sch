@@ -1108,7 +1108,7 @@ VOLTAGE SENSE, 2::3
 Text Notes 4000 4500 0    100  ~ 0
 PROBES
 Text Notes 13050 9650 0    200  ~ 0
-Four Probe v_0.8
+Four Probe v_0.9
 Text Notes 13200 7850 0    60   ~ 0
 Switch for -VEXC
 $Comp
