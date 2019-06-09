@@ -1693,12 +1693,12 @@ PT4
 $Comp
 L four_probe-rescue:Conn_01x04_Female JP1
 U 1 1 5AF5542B
-P 2400 6450
-F 0 "JP1" H 2400 6650 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 2400 6150 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2400 6450 50  0001 C CNN
-F 3 "" H 2400 6450 50  0001 C CNN
-	1    2400 6450
+P 2450 6450
+F 0 "JP1" H 2450 6650 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 2450 6150 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2450 6450 50  0001 C CNN
+F 3 "" H 2450 6450 50  0001 C CNN
+	1    2450 6450
 	1    0    0    -1  
 $EndComp
 Text GLabel 4200 4900 2    60   Input ~ 0
@@ -1709,13 +1709,13 @@ Text GLabel 4400 6300 0    60   Input ~ 0
 P3
 Text GLabel 4400 5600 0    60   Input ~ 0
 P2
-Text GLabel 2200 6650 0    60   Input ~ 0
+Text GLabel 2250 6650 0    60   Input ~ 0
 PT4
-Text GLabel 2200 6550 0    60   Input ~ 0
+Text GLabel 2250 6550 0    60   Input ~ 0
 PT3
-Text GLabel 2200 6450 0    60   Input ~ 0
+Text GLabel 2250 6450 0    60   Input ~ 0
 PT2
-Text GLabel 2200 6350 0    60   Input ~ 0
+Text GLabel 2250 6350 0    60   Input ~ 0
 PT1
 Text GLabel 6200 5350 2    60   Input ~ 0
 V23A
@@ -2556,10 +2556,6 @@ F 12 "Active" H 1150 7250 60  0001 L CNN "Status"
 $EndComp
 Connection ~ 11500 2400
 Connection ~ 11500 3150
-Wire Wire Line
-	15750 2400 15300 2400
-Wire Wire Line
-	15750 2300 15300 2300
 $Comp
 L four_probe-rescue:GND-power #PWR02
 U 1 1 5AC58D11
@@ -2605,17 +2601,6 @@ RGA
 Text GLabel 15750 3600 0    60   Input ~ 0
 RGB
 $Comp
-L Connector:Conn_01x26_Male J1
-U 1 1 5D07D0A5
-P 15950 3600
-F 0 "J1" H 15922 3482 50  0000 R CNN
-F 1 "Conn_01x26_Male" H 15922 3573 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x26_P2.54mm_Vertical" H 15950 3600 50  0001 C CNN
-F 3 "~" H 15950 3600 50  0001 C CNN
-	1    15950 3600
-	-1   0    0    1   
-$EndComp
-$Comp
 L four_probe-rescue:GNDREF-power #PWR0103
 U 1 1 5BD6F7F4
 P 15050 2500
@@ -2650,8 +2635,6 @@ Text GLabel 15750 4800 0    60   Input ~ 0
 TIA
 Text GLabel 15750 4600 0    60   Input ~ 0
 TIC
-Wire Wire Line
-	15750 2500 15050 2500
 $Comp
 L dk_Coaxial-Connectors-RF:CONSMA001-SMD-G J3
 U 1 1 5D1B6FF7
@@ -2797,4 +2780,29 @@ F 3 "" H 15250 1450 50  0001 C CNN
 	1    15250 1450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x30_Male J1
+U 1 1 5D1BAB9F
+P 15950 3400
+F 0 "J1" H 15922 3282 50  0000 R CNN
+F 1 "Conn_01x30_Male" H 15922 3373 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x30_P2.54mm_Vertical" H 15950 3400 50  0001 C CNN
+F 3 "~" H 15950 3400 50  0001 C CNN
+	1    15950 3400
+	-1   0    0    1   
+$EndComp
+Text GLabel 15750 1900 0    60   Input ~ 0
+PT1
+Text GLabel 15750 2000 0    60   Input ~ 0
+PT2
+Text GLabel 15750 2100 0    60   Input ~ 0
+PT3
+Text GLabel 15750 2200 0    60   Input ~ 0
+PT4
+Wire Wire Line
+	15300 2300 15750 2300
+Wire Wire Line
+	15300 2400 15750 2400
+Wire Wire Line
+	15050 2500 15750 2500
 $EndSCHEMATC

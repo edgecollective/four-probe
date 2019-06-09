@@ -1265,59 +1265,59 @@ $EndComp
 $Comp
 L four_probe-rescue:LMC6484 U6
 U 4 1 5AF0089C
-P 12100 3300
-F 0 "U6" H 12100 3500 50  0000 L CNN
-F 1 "LMC6484" H 12100 3100 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 12050 3400 50  0001 C CNN
-F 3 "" H 12150 3500 50  0001 C CNN
-	4    12100 3300
+P 11600 2800
+F 0 "U6" H 11600 3000 50  0000 L CNN
+F 1 "LMC6484" H 11600 2600 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11550 2900 50  0001 C CNN
+F 3 "" H 11650 3000 50  0001 C CNN
+	4    11600 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L four_probe-rescue:GND-power #PWR070
 U 1 1 5AF034B7
-P 12000 3650
-F 0 "#PWR070" H 12000 3400 50  0001 C CNN
-F 1 "GND" H 12000 3500 50  0000 C CNN
-F 2 "" H 12000 3650 50  0001 C CNN
-F 3 "" H 12000 3650 50  0001 C CNN
-	1    12000 3650
+P 11500 3150
+F 0 "#PWR070" H 11500 2900 50  0001 C CNN
+F 1 "GND" H 11500 3000 50  0000 C CNN
+F 2 "" H 11500 3150 50  0001 C CNN
+F 3 "" H 11500 3150 50  0001 C CNN
+	1    11500 3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L four_probe-rescue:VCC-power #PWR069
 U 1 1 5AF03DA5
-P 12000 2900
-F 0 "#PWR069" H 12000 2750 50  0001 C CNN
-F 1 "VCC" H 12000 3050 50  0000 C CNN
-F 2 "" H 12000 2900 50  0001 C CNN
-F 3 "" H 12000 2900 50  0001 C CNN
-	1    12000 2900
+P 11500 2400
+F 0 "#PWR069" H 11500 2250 50  0001 C CNN
+F 1 "VCC" H 11500 2550 50  0000 C CNN
+F 2 "" H 11500 2400 50  0001 C CNN
+F 3 "" H 11500 2400 50  0001 C CNN
+	1    11500 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L four_probe-rescue:R RF8
 U 1 1 5AF042AA
-P 11600 3350
-F 0 "RF8" V 11680 3350 50  0000 C CNN
-F 1 "1K" V 11600 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11530 3350 50  0001 C CNN
-F 3 "" H 11600 3350 50  0001 C CNN
-	1    11600 3350
+P 11100 2850
+F 0 "RF8" V 11180 2850 50  0000 C CNN
+F 1 "1K" V 11100 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11030 2850 50  0001 C CNN
+F 3 "" H 11100 2850 50  0001 C CNN
+	1    11100 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L four_probe-rescue:R RF7
 U 1 1 5AF045C2
-P 11600 3050
-F 0 "RF7" V 11680 3050 50  0000 C CNN
-F 1 "1K" V 11600 3050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11530 3050 50  0001 C CNN
-F 3 "" H 11600 3050 50  0001 C CNN
-	1    11600 3050
+P 11100 2550
+F 0 "RF7" V 11180 2550 50  0000 C CNN
+F 1 "1K" V 11100 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11030 2550 50  0001 C CNN
+F 3 "" H 11100 2550 50  0001 C CNN
+	1    11100 2550
 	1    0    0    -1  
 $EndComp
-Text Notes 11450 2600 0    70   ~ 0
+Text Notes 10950 2100 0    70   ~ 0
 (unused quad op-amp)
 $Comp
 L four_probe-rescue:VCC-power #PWR043
@@ -1693,12 +1693,12 @@ PT4
 $Comp
 L four_probe-rescue:Conn_01x04_Female JP1
 U 1 1 5AF5542B
-P 2400 6450
-F 0 "JP1" H 2400 6650 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 2400 6150 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2400 6450 50  0001 C CNN
-F 3 "" H 2400 6450 50  0001 C CNN
-	1    2400 6450
+P 2450 6450
+F 0 "JP1" H 2450 6650 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 2450 6150 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2450 6450 50  0001 C CNN
+F 3 "" H 2450 6450 50  0001 C CNN
+	1    2450 6450
 	1    0    0    -1  
 $EndComp
 Text GLabel 4200 4900 2    60   Input ~ 0
@@ -1709,13 +1709,13 @@ Text GLabel 4400 6300 0    60   Input ~ 0
 P3
 Text GLabel 4400 5600 0    60   Input ~ 0
 P2
-Text GLabel 2200 6650 0    60   Input ~ 0
+Text GLabel 2250 6650 0    60   Input ~ 0
 PT4
-Text GLabel 2200 6550 0    60   Input ~ 0
+Text GLabel 2250 6550 0    60   Input ~ 0
 PT3
-Text GLabel 2200 6450 0    60   Input ~ 0
+Text GLabel 2250 6450 0    60   Input ~ 0
 PT2
-Text GLabel 2200 6350 0    60   Input ~ 0
+Text GLabel 2250 6350 0    60   Input ~ 0
 PT1
 Text GLabel 6200 5350 2    60   Input ~ 0
 V23A
@@ -2132,23 +2132,23 @@ Wire Wire Line
 Wire Wire Line
 	1600 3500 1500 3500
 Wire Wire Line
-	11800 3400 11800 3850
+	11300 2900 11300 3350
 Wire Wire Line
-	11800 3850 12400 3850
+	11300 3350 11900 3350
 Wire Wire Line
-	12400 3850 12400 3300
+	11900 3350 11900 2800
 Wire Wire Line
-	11600 3200 11800 3200
+	11100 2700 11300 2700
 Wire Wire Line
-	11600 2900 12000 2900
+	11100 2400 11500 2400
 Wire Wire Line
-	12000 2900 12000 3000
+	11500 2400 11500 2500
 Wire Wire Line
-	11600 3500 11600 3650
+	11100 3000 11100 3150
 Wire Wire Line
-	11600 3650 12000 3650
+	11100 3150 11500 3150
 Wire Wire Line
-	12000 3650 12000 3600
+	11500 3150 11500 3100
 Wire Wire Line
 	10000 3050 9700 3050
 Wire Wire Line
@@ -2171,7 +2171,7 @@ Connection ~ 15400 6400
 Connection ~ 2200 3600
 Connection ~ 2950 2050
 Connection ~ 2050 1950
-Connection ~ 11600 3200
+Connection ~ 11100 2700
 Connection ~ 2350 4900
 Wire Wire Line
 	2650 5150 2650 4900
@@ -2554,104 +2554,87 @@ F 12 "Active" H 1150 7250 60  0001 L CNN "Status"
 	1    950  6050
 	1    0    0    -1  
 $EndComp
-Connection ~ 12000 2900
-Connection ~ 12000 3650
-Wire Wire Line
-	15500 2850 15050 2850
-Wire Wire Line
-	15500 2750 15050 2750
+Connection ~ 11500 2400
+Connection ~ 11500 3150
 $Comp
 L four_probe-rescue:GND-power #PWR02
 U 1 1 5AC58D11
-P 15050 2850
-F 0 "#PWR02" H 15050 2600 50  0001 C CNN
-F 1 "GND" H 15050 2700 50  0000 C CNN
-F 2 "" H 15050 2850 50  0001 C CNN
-F 3 "" H 15050 2850 50  0001 C CNN
-	1    15050 2850
+P 15300 2400
+F 0 "#PWR02" H 15300 2150 50  0001 C CNN
+F 1 "GND" H 15300 2250 50  0000 C CNN
+F 2 "" H 15300 2400 50  0001 C CNN
+F 3 "" H 15300 2400 50  0001 C CNN
+	1    15300 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L four_probe-rescue:VCC-power #PWR01
 U 1 1 5AC58CD2
-P 15050 2750
-F 0 "#PWR01" H 15050 2600 50  0001 C CNN
-F 1 "VCC" H 15050 2900 50  0000 C CNN
-F 2 "" H 15050 2750 50  0001 C CNN
-F 3 "" H 15050 2750 50  0001 C CNN
-	1    15050 2750
+P 15300 2300
+F 0 "#PWR01" H 15300 2150 50  0001 C CNN
+F 1 "VCC" H 15300 2450 50  0000 C CNN
+F 2 "" H 15300 2300 50  0001 C CNN
+F 3 "" H 15300 2300 50  0001 C CNN
+	1    15300 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 15500 3850 0    60   Input ~ 0
+Text GLabel 15750 3400 0    60   Input ~ 0
 V12C
-Text GLabel 15500 3650 0    60   Input ~ 0
+Text GLabel 15750 3200 0    60   Input ~ 0
 V12A
-Text GLabel 15500 3750 0    60   Input ~ 0
+Text GLabel 15750 3300 0    60   Input ~ 0
 V12B
-Text GLabel 15500 3050 0    60   Input ~ 0
+Text GLabel 15750 2600 0    60   Input ~ 0
 VIN1
-Text GLabel 15500 3150 0    60   Input ~ 0
+Text GLabel 15750 2700 0    60   Input ~ 0
 VIN2
-Text GLabel 15500 3250 0    60   Input ~ 0
+Text GLabel 15750 2800 0    60   Input ~ 0
 VIN3
-Text GLabel 15500 3350 0    60   Input ~ 0
+Text GLabel 15750 2900 0    60   Input ~ 0
 VIN4
-Text GLabel 15500 3450 0    60   Input ~ 0
+Text GLabel 15750 3000 0    60   Input ~ 0
 PWM1
-Text GLabel 15500 3550 0    60   Input ~ 0
+Text GLabel 15750 3100 0    60   Input ~ 0
 PWM2
-Text GLabel 15500 3950 0    60   Input ~ 0
+Text GLabel 15750 3500 0    60   Input ~ 0
 RGA
-Text GLabel 15500 4050 0    60   Input ~ 0
+Text GLabel 15750 3600 0    60   Input ~ 0
 RGB
-$Comp
-L Connector:Conn_01x26_Male J1
-U 1 1 5D07D0A5
-P 15700 4050
-F 0 "J1" H 15672 3932 50  0000 R CNN
-F 1 "Conn_01x26_Male" H 15672 4023 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x26_P2.54mm_Vertical" H 15700 4050 50  0001 C CNN
-F 3 "~" H 15700 4050 50  0001 C CNN
-	1    15700 4050
-	-1   0    0    1   
-$EndComp
 $Comp
 L four_probe-rescue:GNDREF-power #PWR0103
 U 1 1 5BD6F7F4
-P 14800 2950
-F 0 "#PWR0103" H 14800 2700 50  0001 C CNN
-F 1 "GNDREF" H 14800 2800 50  0000 C CNN
-F 2 "" H 14800 2950 50  0001 C CNN
-F 3 "" H 14800 2950 50  0001 C CNN
-	1    14800 2950
+P 15050 2500
+F 0 "#PWR0103" H 15050 2250 50  0001 C CNN
+F 1 "GNDREF" H 15050 2350 50  0000 C CNN
+F 2 "" H 15050 2500 50  0001 C CNN
+F 3 "" H 15050 2500 50  0001 C CNN
+	1    15050 2500
 	-1   0    0    1   
 $EndComp
-Text GLabel 15500 4150 0    60   Input ~ 0
+Text GLabel 15750 3700 0    60   Input ~ 0
 V23A
-Text GLabel 15500 4250 0    60   Input ~ 0
+Text GLabel 15750 3800 0    60   Input ~ 0
 V23B
-Text GLabel 15500 4350 0    60   Input ~ 0
+Text GLabel 15750 3900 0    60   Input ~ 0
 V23C
-Text GLabel 15500 4450 0    60   Input ~ 0
+Text GLabel 15750 4000 0    60   Input ~ 0
 MUXGB
-Text GLabel 15500 4550 0    60   Input ~ 0
+Text GLabel 15750 4100 0    60   Input ~ 0
 MUXGA
-Text GLabel 15500 4650 0    60   Input ~ 0
+Text GLabel 15750 4200 0    60   Input ~ 0
 MUXRB
-Text GLabel 15500 4750 0    60   Input ~ 0
+Text GLabel 15750 4300 0    60   Input ~ 0
 MUXRA
-Text GLabel 15500 4850 0    60   Input ~ 0
+Text GLabel 15750 4400 0    60   Input ~ 0
 MUXVB
-Text GLabel 15500 4950 0    60   Input ~ 0
+Text GLabel 15750 4500 0    60   Input ~ 0
 MUXVA
-Text GLabel 15500 5150 0    60   Input ~ 0
+Text GLabel 15750 4700 0    60   Input ~ 0
 TIB
-Text GLabel 15500 5250 0    60   Input ~ 0
+Text GLabel 15750 4800 0    60   Input ~ 0
 TIA
-Text GLabel 15500 5050 0    60   Input ~ 0
+Text GLabel 15750 4600 0    60   Input ~ 0
 TIC
-Wire Wire Line
-	15500 2950 14800 2950
 $Comp
 L dk_Coaxial-Connectors-RF:CONSMA001-SMD-G J3
 U 1 1 5D1B6FF7
@@ -2797,4 +2780,29 @@ F 3 "" H 15250 1450 50  0001 C CNN
 	1    15250 1450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x30_Male J1
+U 1 1 5D1BAB9F
+P 15950 3400
+F 0 "J1" H 15922 3282 50  0000 R CNN
+F 1 "Conn_01x30_Male" H 15922 3373 50  0000 R CNN
+F 2 "" H 15950 3400 50  0001 C CNN
+F 3 "~" H 15950 3400 50  0001 C CNN
+	1    15950 3400
+	-1   0    0    1   
+$EndComp
+Text GLabel 15750 1900 0    60   Input ~ 0
+PT1
+Text GLabel 15750 2000 0    60   Input ~ 0
+PT2
+Text GLabel 15750 2100 0    60   Input ~ 0
+PT3
+Text GLabel 15750 2200 0    60   Input ~ 0
+PT4
+Wire Wire Line
+	15300 2300 15750 2300
+Wire Wire Line
+	15300 2400 15750 2400
+Wire Wire Line
+	15050 2500 15750 2500
 $EndSCHEMATC
