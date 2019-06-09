@@ -1693,12 +1693,12 @@ PT4
 $Comp
 L four_probe-rescue:Conn_01x04_Female JP1
 U 1 1 5AF5542B
-P 2450 6450
-F 0 "JP1" H 2450 6650 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 2450 6150 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2450 6450 50  0001 C CNN
-F 3 "" H 2450 6450 50  0001 C CNN
-	1    2450 6450
+P 2650 7100
+F 0 "JP1" H 2650 7300 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 2650 6800 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2650 7100 50  0001 C CNN
+F 3 "" H 2650 7100 50  0001 C CNN
+	1    2650 7100
 	1    0    0    -1  
 $EndComp
 Text GLabel 4200 4900 2    60   Input ~ 0
@@ -1709,13 +1709,13 @@ Text GLabel 4400 6300 0    60   Input ~ 0
 P3
 Text GLabel 4400 5600 0    60   Input ~ 0
 P2
-Text GLabel 2250 6650 0    60   Input ~ 0
+Text GLabel 2450 7300 0    60   Input ~ 0
 PT4
-Text GLabel 2250 6550 0    60   Input ~ 0
+Text GLabel 2450 7200 0    60   Input ~ 0
 PT3
-Text GLabel 2250 6450 0    60   Input ~ 0
+Text GLabel 2450 7100 0    60   Input ~ 0
 PT2
-Text GLabel 2250 6350 0    60   Input ~ 0
+Text GLabel 2450 7000 0    60   Input ~ 0
 PT1
 Text GLabel 6200 5350 2    60   Input ~ 0
 V23A
@@ -2193,8 +2193,8 @@ Connection ~ 5000 2250
 Wire Wire Line
 	4500 6300 4400 6300
 Connection ~ 4500 6550
-Text Notes 1950 6150 0    98   ~ 0
-Probes
+Text Notes 1150 5850 0    98   ~ 0
+Probe Connectors
 Wire Wire Line
 	4800 5600 5200 5600
 Wire Wire Line
@@ -2537,21 +2537,21 @@ Wire Wire Line
 $Comp
 L dk_Coaxial-Connectors-RF:CONSMA001-SMD-G J4
 U 1 1 5D0DB04E
-P 950 6050
-F 0 "J4" H 1028 6297 60  0000 C CNN
-F 1 "CONSMA001-SMD-G" H 1028 6191 60  0000 C CNN
-F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 1150 6250 60  0001 L CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1150 6350 60  0001 L CNN
-F 4 "CONSMA001-SMD-G-ND" H 1150 6450 60  0001 L CNN "Digi-Key_PN"
-F 5 "CONSMA001-SMD-G" H 1150 6550 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 1150 6650 60  0001 L CNN "Category"
-F 7 "Coaxial Connectors (RF)" H 1150 6750 60  0001 L CNN "Family"
-F 8 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1150 6850 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569" H 1150 6950 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN SMA RCPT STR 50 OHM SMD" H 1150 7050 60  0001 L CNN "Description"
-F 11 "Linx Technologies Inc." H 1150 7150 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1150 7250 60  0001 L CNN "Status"
-	1    950  6050
+P 1450 6400
+F 0 "J4" H 1528 6647 60  0000 C CNN
+F 1 "CONSMA001-SMD-G" H 1528 6541 60  0000 C CNN
+F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 1650 6600 60  0001 L CNN
+F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1650 6700 60  0001 L CNN
+F 4 "CONSMA001-SMD-G-ND" H 1650 6800 60  0001 L CNN "Digi-Key_PN"
+F 5 "CONSMA001-SMD-G" H 1650 6900 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1650 7000 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 1650 7100 60  0001 L CNN "Family"
+F 8 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1650 7200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569" H 1650 7300 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN SMA RCPT STR 50 OHM SMD" H 1650 7400 60  0001 L CNN "Description"
+F 11 "Linx Technologies Inc." H 1650 7500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1650 7600 60  0001 L CNN "Status"
+	1    1450 6400
 	1    0    0    -1  
 $EndComp
 Connection ~ 12450 2800
@@ -2638,114 +2638,114 @@ TIC
 $Comp
 L dk_Coaxial-Connectors-RF:CONSMA001-SMD-G J3
 U 1 1 5D1B6FF7
-P 950 6700
-F 0 "J3" H 1028 6947 60  0000 C CNN
-F 1 "CONSMA001-SMD-G" H 1028 6841 60  0000 C CNN
-F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 1150 6900 60  0001 L CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1150 7000 60  0001 L CNN
-F 4 "CONSMA001-SMD-G-ND" H 1150 7100 60  0001 L CNN "Digi-Key_PN"
-F 5 "CONSMA001-SMD-G" H 1150 7200 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 1150 7300 60  0001 L CNN "Category"
-F 7 "Coaxial Connectors (RF)" H 1150 7400 60  0001 L CNN "Family"
-F 8 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1150 7500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569" H 1150 7600 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN SMA RCPT STR 50 OHM SMD" H 1150 7700 60  0001 L CNN "Description"
-F 11 "Linx Technologies Inc." H 1150 7800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1150 7900 60  0001 L CNN "Status"
-	1    950  6700
+P 1450 7050
+F 0 "J3" H 1528 7297 60  0000 C CNN
+F 1 "CONSMA001-SMD-G" H 1528 7191 60  0000 C CNN
+F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 1650 7250 60  0001 L CNN
+F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1650 7350 60  0001 L CNN
+F 4 "CONSMA001-SMD-G-ND" H 1650 7450 60  0001 L CNN "Digi-Key_PN"
+F 5 "CONSMA001-SMD-G" H 1650 7550 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1650 7650 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 1650 7750 60  0001 L CNN "Family"
+F 8 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1650 7850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569" H 1650 7950 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN SMA RCPT STR 50 OHM SMD" H 1650 8050 60  0001 L CNN "Description"
+F 11 "Linx Technologies Inc." H 1650 8150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1650 8250 60  0001 L CNN "Status"
+	1    1450 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Coaxial-Connectors-RF:CONSMA001-SMD-G J5
 U 1 1 5D1B741A
-P 950 7300
-F 0 "J5" H 1028 7547 60  0000 C CNN
-F 1 "CONSMA001-SMD-G" H 1028 7441 60  0000 C CNN
-F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 1150 7500 60  0001 L CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1150 7600 60  0001 L CNN
-F 4 "CONSMA001-SMD-G-ND" H 1150 7700 60  0001 L CNN "Digi-Key_PN"
-F 5 "CONSMA001-SMD-G" H 1150 7800 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 1150 7900 60  0001 L CNN "Category"
-F 7 "Coaxial Connectors (RF)" H 1150 8000 60  0001 L CNN "Family"
-F 8 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1150 8100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569" H 1150 8200 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN SMA RCPT STR 50 OHM SMD" H 1150 8300 60  0001 L CNN "Description"
-F 11 "Linx Technologies Inc." H 1150 8400 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1150 8500 60  0001 L CNN "Status"
-	1    950  7300
+P 1450 7650
+F 0 "J5" H 1528 7897 60  0000 C CNN
+F 1 "CONSMA001-SMD-G" H 1528 7791 60  0000 C CNN
+F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 1650 7850 60  0001 L CNN
+F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1650 7950 60  0001 L CNN
+F 4 "CONSMA001-SMD-G-ND" H 1650 8050 60  0001 L CNN "Digi-Key_PN"
+F 5 "CONSMA001-SMD-G" H 1650 8150 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1650 8250 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 1650 8350 60  0001 L CNN "Family"
+F 8 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1650 8450 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569" H 1650 8550 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN SMA RCPT STR 50 OHM SMD" H 1650 8650 60  0001 L CNN "Description"
+F 11 "Linx Technologies Inc." H 1650 8750 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1650 8850 60  0001 L CNN "Status"
+	1    1450 7650
 	1    0    0    -1  
 $EndComp
 $Comp
 L dk_Coaxial-Connectors-RF:CONSMA001-SMD-G J6
 U 1 1 5D1B7803
-P 950 7900
-F 0 "J6" H 1028 8147 60  0000 C CNN
-F 1 "CONSMA001-SMD-G" H 1028 8041 60  0000 C CNN
-F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 1150 8100 60  0001 L CNN
-F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1150 8200 60  0001 L CNN
-F 4 "CONSMA001-SMD-G-ND" H 1150 8300 60  0001 L CNN "Digi-Key_PN"
-F 5 "CONSMA001-SMD-G" H 1150 8400 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 1150 8500 60  0001 L CNN "Category"
-F 7 "Coaxial Connectors (RF)" H 1150 8600 60  0001 L CNN "Family"
-F 8 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1150 8700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569" H 1150 8800 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN SMA RCPT STR 50 OHM SMD" H 1150 8900 60  0001 L CNN "Description"
-F 11 "Linx Technologies Inc." H 1150 9000 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1150 9100 60  0001 L CNN "Status"
-	1    950  7900
+P 1450 8250
+F 0 "J6" H 1528 8497 60  0000 C CNN
+F 1 "CONSMA001-SMD-G" H 1528 8391 60  0000 C CNN
+F 2 "digikey-footprints:RF_SMA_Receptical_Vertical_CONSMA001-SMD-G" H 1650 8450 60  0001 L CNN
+F 3 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1650 8550 60  0001 L CNN
+F 4 "CONSMA001-SMD-G-ND" H 1650 8650 60  0001 L CNN "Digi-Key_PN"
+F 5 "CONSMA001-SMD-G" H 1650 8750 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1650 8850 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 1650 8950 60  0001 L CNN "Family"
+F 8 "https://linxtechnologies.com/wp/wp-content/uploads/consma001-smd-g.pdf" H 1650 9050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569" H 1650 9150 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN SMA RCPT STR 50 OHM SMD" H 1650 9250 60  0001 L CNN "Description"
+F 11 "Linx Technologies Inc." H 1650 9350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1650 9450 60  0001 L CNN "Status"
+	1    1450 8250
 	1    0    0    -1  
 $EndComp
 $Comp
 L four_probe-rescue:GND-power #PWR0106
 U 1 1 5D1B93BB
-P 950 8100
-F 0 "#PWR0106" H 950 7850 50  0001 C CNN
-F 1 "GND" H 950 7950 50  0000 C CNN
-F 2 "" H 950 8100 50  0001 C CNN
-F 3 "" H 950 8100 50  0001 C CNN
-	1    950  8100
+P 1450 8450
+F 0 "#PWR0106" H 1450 8200 50  0001 C CNN
+F 1 "GND" H 1450 8300 50  0000 C CNN
+F 2 "" H 1450 8450 50  0001 C CNN
+F 3 "" H 1450 8450 50  0001 C CNN
+	1    1450 8450
 	1    0    0    -1  
 $EndComp
 $Comp
 L four_probe-rescue:GND-power #PWR0107
 U 1 1 5D1B9C78
-P 950 7500
-F 0 "#PWR0107" H 950 7250 50  0001 C CNN
-F 1 "GND" H 950 7350 50  0000 C CNN
-F 2 "" H 950 7500 50  0001 C CNN
-F 3 "" H 950 7500 50  0001 C CNN
-	1    950  7500
+P 1450 7850
+F 0 "#PWR0107" H 1450 7600 50  0001 C CNN
+F 1 "GND" H 1450 7700 50  0000 C CNN
+F 2 "" H 1450 7850 50  0001 C CNN
+F 3 "" H 1450 7850 50  0001 C CNN
+	1    1450 7850
 	1    0    0    -1  
 $EndComp
 $Comp
 L four_probe-rescue:GND-power #PWR0108
 U 1 1 5D1BA208
-P 950 6900
-F 0 "#PWR0108" H 950 6650 50  0001 C CNN
-F 1 "GND" H 950 6750 50  0000 C CNN
-F 2 "" H 950 6900 50  0001 C CNN
-F 3 "" H 950 6900 50  0001 C CNN
-	1    950  6900
+P 1450 7250
+F 0 "#PWR0108" H 1450 7000 50  0001 C CNN
+F 1 "GND" H 1450 7100 50  0000 C CNN
+F 2 "" H 1450 7250 50  0001 C CNN
+F 3 "" H 1450 7250 50  0001 C CNN
+	1    1450 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L four_probe-rescue:GND-power #PWR0109
 U 1 1 5D1BA37A
-P 950 6250
-F 0 "#PWR0109" H 950 6000 50  0001 C CNN
-F 1 "GND" H 950 6100 50  0000 C CNN
-F 2 "" H 950 6250 50  0001 C CNN
-F 3 "" H 950 6250 50  0001 C CNN
-	1    950  6250
+P 1450 6600
+F 0 "#PWR0109" H 1450 6350 50  0001 C CNN
+F 1 "GND" H 1450 6450 50  0000 C CNN
+F 2 "" H 1450 6600 50  0001 C CNN
+F 3 "" H 1450 6600 50  0001 C CNN
+	1    1450 6600
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 6050 2    60   Input ~ 0
+Text GLabel 1650 6400 2    60   Input ~ 0
 PT1
-Text GLabel 1150 6700 2    60   Input ~ 0
+Text GLabel 1650 7050 2    60   Input ~ 0
 PT2
-Text GLabel 1150 7300 2    60   Input ~ 0
+Text GLabel 1650 7650 2    60   Input ~ 0
 PT3
-Text GLabel 1150 7900 2    60   Input ~ 0
+Text GLabel 1650 8250 2    60   Input ~ 0
 PT4
 $Comp
 L four_probe-rescue:C CU11
