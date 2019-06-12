@@ -2578,62 +2578,23 @@ F 3 "" H 15050 2700 50  0001 C CNN
 	1    15050 2700
 	1    0    0    -1  
 $EndComp
-Text GLabel 15500 3800 0    60   Input ~ 0
-V12C
 Text GLabel 15500 3600 0    60   Input ~ 0
-V12A
-Text GLabel 15500 3700 0    60   Input ~ 0
-V12B
-Text GLabel 15500 3000 0    60   Input ~ 0
-VIN1
-Text GLabel 15500 3100 0    60   Input ~ 0
-VIN2
-Text GLabel 15500 3200 0    60   Input ~ 0
-VIN3
-Text GLabel 15500 3300 0    60   Input ~ 0
-VIN4
-Text GLabel 15500 3400 0    60   Input ~ 0
-PWM1
-Text GLabel 15500 3500 0    60   Input ~ 0
-PWM2
-Text GLabel 15500 3900 0    60   Input ~ 0
-RGA
-Text GLabel 15500 4000 0    60   Input ~ 0
-RGB
-$Comp
-L four_probe-rescue:GNDREF-power #PWR0103
-U 1 1 5BD6F7F4
-P 14800 2900
-F 0 "#PWR0103" H 14800 2650 50  0001 C CNN
-F 1 "GNDREF" H 14800 2750 50  0000 C CNN
-F 2 "" H 14800 2900 50  0001 C CNN
-F 3 "" H 14800 2900 50  0001 C CNN
-	1    14800 2900
-	-1   0    0    1   
-$EndComp
-Text GLabel 15500 4100 0    60   Input ~ 0
 V23A
-Text GLabel 15500 4200 0    60   Input ~ 0
-V23B
-Text GLabel 15500 4300 0    60   Input ~ 0
-V23C
-Text GLabel 15500 4400 0    60   Input ~ 0
-MUXGB
-Text GLabel 15500 4500 0    60   Input ~ 0
-MUXGA
-Text GLabel 15500 4600 0    60   Input ~ 0
-MUXRB
-Text GLabel 15500 4700 0    60   Input ~ 0
-MUXRA
-Text GLabel 15500 4800 0    60   Input ~ 0
-MUXVB
-Text GLabel 15500 4900 0    60   Input ~ 0
-MUXVA
-Text GLabel 15500 5100 0    60   Input ~ 0
-TIB
 Text GLabel 15500 5200 0    60   Input ~ 0
-TIA
+V23B
+Text GLabel 15500 4600 0    60   Input ~ 0
+V23C
+Text GLabel 15500 4800 0    60   Input ~ 0
+MUXGB
 Text GLabel 15500 5000 0    60   Input ~ 0
+MUXGA
+Text GLabel 15500 3200 0    60   Input ~ 0
+MUXVB
+Text GLabel 15500 3000 0    60   Input ~ 0
+MUXVA
+Text GLabel 15500 4900 0    60   Input ~ 0
+TIA
+Text GLabel 15500 4500 0    60   Input ~ 0
 TIC
 $Comp
 L dk_Coaxial-Connectors-RF:CONSMA001-SMD-G J3
@@ -2791,18 +2752,57 @@ F 3 "~" H 15700 3800 50  0001 C CNN
 	1    15700 3800
 	-1   0    0    1   
 $EndComp
-Text GLabel 15500 2300 0    60   Input ~ 0
-PT1
-Text GLabel 15500 2400 0    60   Input ~ 0
-PT2
-Text GLabel 15500 2500 0    60   Input ~ 0
-PT3
 Text GLabel 15500 2600 0    60   Input ~ 0
+PT1
+Text GLabel 15500 2500 0    60   Input ~ 0
+PT2
+Text GLabel 15500 2400 0    60   Input ~ 0
+PT3
+Text GLabel 15500 2300 0    60   Input ~ 0
 PT4
 Wire Wire Line
 	15050 2700 15500 2700
 Wire Wire Line
 	15050 2800 15500 2800
 Wire Wire Line
-	14800 2900 15500 2900
+	15500 4000 14950 4000
+Text GLabel 15500 3400 0    60   Input ~ 0
+VIN4
+Text GLabel 15500 2900 0    60   Input ~ 0
+VIN3
+Text GLabel 15500 3300 0    60   Input ~ 0
+VIN2
+Text GLabel 15500 3100 0    60   Input ~ 0
+VIN1
+Text GLabel 15500 3800 0    60   Input ~ 0
+MUXRA
+Text GLabel 15500 3900 0    60   Input ~ 0
+MUXRB
+$Comp
+L four_probe-rescue:GNDREF-power #PWR0103
+U 1 1 5BD6F7F4
+P 14950 4000
+F 0 "#PWR0103" H 14950 3750 50  0001 C CNN
+F 1 "GNDREF" H 14950 3850 50  0000 C CNN
+F 2 "" H 14950 4000 50  0001 C CNN
+F 3 "" H 14950 4000 50  0001 C CNN
+	1    14950 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 15500 3500 0    60   Input ~ 0
+RGB
+Text GLabel 15500 3700 0    60   Input ~ 0
+RGA
+Text GLabel 15500 4200 0    60   Input ~ 0
+PWM2
+Text GLabel 15500 4300 0    60   Input ~ 0
+PWM1
+Text GLabel 15500 4700 0    60   Input ~ 0
+V12B
+Text GLabel 15500 4100 0    60   Input ~ 0
+V12A
+Text GLabel 15500 5100 0    60   Input ~ 0
+V12C
+Text GLabel 15500 4400 0    60   Input ~ 0
+TIB
 $EndSCHEMATC
