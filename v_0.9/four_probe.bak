@@ -1747,10 +1747,10 @@ $EndComp
 Text Notes 11100 4450 0    60   ~ 0
 Should match capacitors to gain resistors
 $Comp
-L four_probe-rescue:Conn_01x02 JRG4
+L four_probe-rescue:Conn_01x02 JR4
 U 1 1 5AFF8263
 P 12750 6100
-F 0 "JRG4" H 12750 6200 50  0000 C CNN
+F 0 "JR4" H 12750 6200 50  0000 C CNN
 F 1 "Conn_01x02" H 12750 5900 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 12750 6100 50  0001 C CNN
 F 3 "" H 12750 6100 50  0001 C CNN

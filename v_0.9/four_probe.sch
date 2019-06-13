@@ -118,17 +118,6 @@ $EndComp
 Text Notes 4150 5950 0    59   ~ 0
 R_test
 $Comp
-L four_probe-rescue:R RV23G1
-U 1 1 5ACBDA2E
-P 5100 5800
-F 0 "RV23G1" V 5200 5800 50  0000 C CNN
-F 1 "R" V 5100 5800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5030 5800 50  0001 C CNN
-F 3 "" H 5100 5800 50  0001 C CNN
-	1    5100 5800
-	-1   0    0    1   
-$EndComp
-$Comp
 L four_probe-rescue:VCC-power #PWR017
 U 1 1 5ACBF7E2
 P 5500 5500
@@ -2821,6 +2810,17 @@ F 1 "Conn_01x32_Male" H 15772 3873 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x32_P2.54mm_Vertical" H 15800 3900 50  0001 C CNN
 F 3 "~" H 15800 3900 50  0001 C CNN
 	1    15800 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L four_probe-rescue:R RG23
+U 1 1 5ACBDA2E
+P 5100 5800
+F 0 "RG23" V 5200 5800 50  0000 C CNN
+F 1 "R" V 5100 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5030 5800 50  0001 C CNN
+F 3 "" H 5100 5800 50  0001 C CNN
+	1    5100 5800
 	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
