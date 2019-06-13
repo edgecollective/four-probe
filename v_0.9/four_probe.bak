@@ -2584,17 +2584,17 @@ Text GLabel 15500 5200 0    60   Input ~ 0
 V23B
 Text GLabel 15500 4600 0    60   Input ~ 0
 V23C
-Text GLabel 15500 4800 0    60   Input ~ 0
+Text GLabel 15500 4900 0    60   Input ~ 0
 MUXGB
 Text GLabel 15500 5000 0    60   Input ~ 0
 MUXGA
 Text GLabel 15500 3200 0    60   Input ~ 0
 MUXVB
-Text GLabel 15500 3000 0    60   Input ~ 0
+Text GLabel 15500 2900 0    60   Input ~ 0
 MUXVA
-Text GLabel 15500 4900 0    60   Input ~ 0
+Text GLabel 15500 4800 0    60   Input ~ 0
 TIA
-Text GLabel 15500 4400 0    60   Input ~ 0
+Text GLabel 15500 4500 0    60   Input ~ 0
 TIC
 $Comp
 L dk_Coaxial-Connectors-RF:CONSMA001-SMD-G J3
@@ -2768,11 +2768,11 @@ Wire Wire Line
 	15500 4000 14950 4000
 Text GLabel 15500 3400 0    60   Input ~ 0
 VIN4
-Text GLabel 15500 2900 0    60   Input ~ 0
+Text GLabel 15500 3100 0    60   Input ~ 0
 VIN3
 Text GLabel 15500 3300 0    60   Input ~ 0
 VIN2
-Text GLabel 15500 3100 0    60   Input ~ 0
+Text GLabel 15500 3000 0    60   Input ~ 0
 VIN1
 Text GLabel 15500 3800 0    60   Input ~ 0
 MUXRA
@@ -2803,6 +2803,6 @@ Text GLabel 15500 4100 0    60   Input ~ 0
 V12A
 Text GLabel 15500 5100 0    60   Input ~ 0
 V12C
-Text GLabel 15500 4500 0    60   Input ~ 0
+Text GLabel 15500 4400 0    60   Input ~ 0
 TIB
 $EndSCHEMATC
