@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/dwblair/gitwork/four-probe/v_0.9/four_probe.sch)
-    (date "Thu 13 Jun 2019 10:56:00 AM EDT")
+    (date "Thu 13 Jun 2019 02:02:57 PM EDT")
     (tool "Eeschema 5.1.2-f72e74a~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

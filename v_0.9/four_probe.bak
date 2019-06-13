@@ -118,17 +118,6 @@ $EndComp
 Text Notes 4150 5950 0    59   ~ 0
 R_test
 $Comp
-L four_probe-rescue:R RV23G1
-U 1 1 5ACBDA2E
-P 5100 5800
-F 0 "RV23G1" V 5200 5800 50  0000 C CNN
-F 1 "R" V 5100 5800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5030 5800 50  0001 C CNN
-F 3 "" H 5100 5800 50  0001 C CNN
-	1    5100 5800
-	-1   0    0    1   
-$EndComp
-$Comp
 L four_probe-rescue:VCC-power #PWR017
 U 1 1 5ACBF7E2
 P 5500 5500
@@ -2822,5 +2811,60 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x32_P2.54mm_Vertical" H 15800 3900 50
 F 3 "~" H 15800 3900 50  0001 C CNN
 	1    15800 3900
 	-1   0    0    1   
+$EndComp
+$Comp
+L four_probe-rescue:R RG23
+U 1 1 5ACBDA2E
+P 5100 5800
+F 0 "RG23" V 5200 5800 50  0000 C CNN
+F 1 "R" V 5100 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5030 5800 50  0001 C CNN
+F 3 "" H 5100 5800 50  0001 C CNN
+	1    5100 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D03C96C
+P 1100 4650
+F 0 "H1" H 1200 4696 50  0000 L CNN
+F 1 "MountingHole" H 1200 4605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" H 1100 4650 50  0001 C CNN
+F 3 "~" H 1100 4650 50  0001 C CNN
+	1    1100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D0428E1
+P 1100 4850
+F 0 "H2" H 1200 4896 50  0000 L CNN
+F 1 "MountingHole" H 1200 4805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" H 1100 4850 50  0001 C CNN
+F 3 "~" H 1100 4850 50  0001 C CNN
+	1    1100 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5D0431BE
+P 1100 5050
+F 0 "H3" H 1200 5096 50  0000 L CNN
+F 1 "MountingHole" H 1200 5005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" H 1100 5050 50  0001 C CNN
+F 3 "~" H 1100 5050 50  0001 C CNN
+	1    1100 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5D043872
+P 1100 5250
+F 0 "H4" H 1200 5296 50  0000 L CNN
+F 1 "MountingHole" H 1200 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380" H 1100 5250 50  0001 C CNN
+F 3 "~" H 1100 5250 50  0001 C CNN
+	1    1100 5250
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
