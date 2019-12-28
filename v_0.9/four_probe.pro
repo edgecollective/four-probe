@@ -1,4 +1,4 @@
-update=Sun 09 Jun 2019 12:48:39 PM EDT
+update=Fri 27 Dec 2019 07:08:47 PM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -237,7 +237,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=schem_color
+PlotDirectoryName=fourprobe_schem_0.9.pdf
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
