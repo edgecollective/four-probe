@@ -17,106 +17,106 @@ $EndDescr
 $Comp
 L knuth-gateway-rescue:Conn_01x12_Female-Connector J1
 U 1 1 5D3A6009
-P 6800 4400
-F 0 "J1" H 6600 5050 50  0000 L CNN
-F 1 "FeatherLora1" V 6150 4050 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 6800 4400 50  0001 C CNN
-F 3 "~" H 6800 4400 50  0001 C CNN
-	1    6800 4400
+P 7000 4150
+F 0 "J1" H 6800 4800 50  0000 L CNN
+F 1 "FeatherLora1" V 6350 3800 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 7000 4150 50  0001 C CNN
+F 3 "~" H 7000 4150 50  0001 C CNN
+	1    7000 4150
 	-1   0    0    1   
 $EndComp
 $Comp
 L knuth-gateway-rescue:Conn_01x16_Female-Connector J2
 U 1 1 5D3A613C
-P 5650 4200
-F 0 "J2" H 5500 5050 50  0000 L CNN
-F 1 "FeatherLora2" V 5800 3950 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 5650 4200 50  0001 C CNN
-F 3 "~" H 5650 4200 50  0001 C CNN
-	1    5650 4200
+P 5850 3950
+F 0 "J2" H 5700 4800 50  0000 L CNN
+F 1 "FeatherLora2" V 6000 3700 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 5850 3950 50  0001 C CNN
+F 3 "~" H 5850 3950 50  0001 C CNN
+	1    5850 3950
 	-1   0    0    1   
 $EndComp
-Text GLabel 7000 4900 2    50   Input ~ 0
+Text GLabel 7200 4650 2    50   Input ~ 0
 VBAT
-Text GLabel 7000 4800 2    50   Input ~ 0
+Text GLabel 7200 4550 2    50   Input ~ 0
 EN
-Text GLabel 7000 4700 2    50   Input ~ 0
+Text GLabel 7200 4450 2    50   Input ~ 0
 VBUS
-Text GLabel 7000 4600 2    50   Input ~ 0
+Text GLabel 7200 4350 2    50   Input ~ 0
 D13
-Text GLabel 7000 4500 2    50   Input ~ 0
+Text GLabel 7200 4250 2    50   Input ~ 0
 D12
-Text GLabel 7000 4400 2    50   Input ~ 0
+Text GLabel 7200 4150 2    50   Input ~ 0
 D11
-Text GLabel 7000 4300 2    50   Input ~ 0
+Text GLabel 7200 4050 2    50   Input ~ 0
 D10
-Text GLabel 7000 4200 2    50   Input ~ 0
+Text GLabel 7200 3950 2    50   Input ~ 0
 D9
-Text GLabel 7000 4100 2    50   Input ~ 0
+Text GLabel 7200 3850 2    50   Input ~ 0
 D6
-Text GLabel 7000 4000 2    50   Input ~ 0
+Text GLabel 7200 3750 2    50   Input ~ 0
 D5
-Text GLabel 7000 3900 2    50   Input ~ 0
+Text GLabel 7200 3650 2    50   Input ~ 0
 SCL
-Text GLabel 7000 3800 2    50   Input ~ 0
+Text GLabel 7200 3550 2    50   Input ~ 0
 SDA
-Text GLabel 5850 4900 2    50   Input ~ 0
+Text GLabel 6050 4650 2    50   Input ~ 0
 RESET
 Wire Wire Line
-	5850 4800 6200 4800
+	6050 4550 6400 4550
 Wire Wire Line
-	6200 4800 6200 5000
+	6400 4550 6400 4750
 $Comp
 L knuth-gateway-rescue:+3V3-power #PWR0101
 U 1 1 5D3A928A
-P 6200 5000
-F 0 "#PWR0101" H 6200 4850 50  0001 C CNN
-F 1 "+3V3" H 6215 5173 50  0000 C CNN
-F 2 "" H 6200 5000 50  0001 C CNN
-F 3 "" H 6200 5000 50  0001 C CNN
-	1    6200 5000
+P 6400 4750
+F 0 "#PWR0101" H 6400 4600 50  0001 C CNN
+F 1 "+3V3" H 6415 4923 50  0000 C CNN
+F 2 "" H 6400 4750 50  0001 C CNN
+F 3 "" H 6400 4750 50  0001 C CNN
+	1    6400 4750
 	-1   0    0    1   
 $EndComp
-Text GLabel 5850 4700 2    50   Input ~ 0
+Text GLabel 6050 4450 2    50   Input ~ 0
 AREF
 Wire Wire Line
-	5850 4600 6200 4600
+	6050 4350 6400 4350
 Wire Wire Line
-	6200 4600 6200 4550
+	6400 4350 6400 4300
 $Comp
 L knuth-gateway-rescue:GND-power #PWR0103
 U 1 1 5D3AC17C
-P 6200 4550
-F 0 "#PWR0103" H 6200 4300 50  0001 C CNN
-F 1 "GND" H 6205 4377 50  0000 C CNN
-F 2 "" H 6200 4550 50  0001 C CNN
-F 3 "" H 6200 4550 50  0001 C CNN
-	1    6200 4550
+P 6400 4300
+F 0 "#PWR0103" H 6400 4050 50  0001 C CNN
+F 1 "GND" H 6405 4127 50  0000 C CNN
+F 2 "" H 6400 4300 50  0001 C CNN
+F 3 "" H 6400 4300 50  0001 C CNN
+	1    6400 4300
 	-1   0    0    1   
 $EndComp
-Text GLabel 5850 4500 2    50   Input ~ 0
+Text GLabel 6050 4250 2    50   Input ~ 0
 A0
-Text GLabel 5850 4400 2    50   Input ~ 0
+Text GLabel 6050 4150 2    50   Input ~ 0
 A1
-Text GLabel 5850 4300 2    50   Input ~ 0
+Text GLabel 6050 4050 2    50   Input ~ 0
 A2
-Text GLabel 5850 4200 2    50   Input ~ 0
+Text GLabel 6050 3950 2    50   Input ~ 0
 A3
-Text GLabel 5850 4100 2    50   Input ~ 0
+Text GLabel 6050 3850 2    50   Input ~ 0
 A4
-Text GLabel 5850 4000 2    50   Input ~ 0
+Text GLabel 6050 3750 2    50   Input ~ 0
 A5
-Text GLabel 5850 3900 2    50   Input ~ 0
+Text GLabel 6050 3650 2    50   Input ~ 0
 SCK
-Text GLabel 5850 3800 2    50   Input ~ 0
+Text GLabel 6050 3550 2    50   Input ~ 0
 MOSI
-Text GLabel 5850 3700 2    50   Input ~ 0
+Text GLabel 6050 3450 2    50   Input ~ 0
 MISO
-Text GLabel 5850 3600 2    50   Input ~ 0
+Text GLabel 6050 3350 2    50   Input ~ 0
 D0
-Text GLabel 5850 3500 2    50   Input ~ 0
+Text GLabel 6050 3250 2    50   Input ~ 0
 D1
-Text GLabel 5850 3400 2    50   Input ~ 0
+Text GLabel 6050 3150 2    50   Input ~ 0
 DI01
 $Comp
 L Connector:Conn_01x32_Male J3
@@ -300,23 +300,23 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x04_Female J5
 U 1 1 5E0BD889
-P 5150 1650
-F 0 "J5" H 5042 1225 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 5042 1316 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5150 1650 50  0001 C CNN
-F 3 "~" H 5150 1650 50  0001 C CNN
-	1    5150 1650
+P 5300 1300
+F 0 "J5" H 5192 875 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 5192 966 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5300 1300 50  0001 C CNN
+F 3 "~" H 5300 1300 50  0001 C CNN
+	1    5300 1300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x03_Female J6
 U 1 1 5E0D7070
-P 5700 2850
-F 0 "J6" H 5728 2876 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 5728 2785 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5700 2850 50  0001 C CNN
-F 3 "~" H 5700 2850 50  0001 C CNN
-	1    5700 2850
+P 5900 2600
+F 0 "J6" H 5792 2275 50  0000 C CNN
+F 1 "Potentiostat" H 5792 2366 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5900 2600 50  0001 C CNN
+F 3 "~" H 5900 2600 50  0001 C CNN
+	1    5900 2600
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -336,16 +336,16 @@ Connection ~ 4200 3250
 $Comp
 L power:GNDREF #PWR0110
 U 1 1 5E0DADF7
-P 6450 2950
-F 0 "#PWR0110" H 6450 2700 50  0001 C CNN
-F 1 "GNDREF" H 6455 2777 50  0000 C CNN
-F 2 "" H 6450 2950 50  0001 C CNN
-F 3 "" H 6450 2950 50  0001 C CNN
-	1    6450 2950
+P 6650 2700
+F 0 "#PWR0110" H 6650 2450 50  0001 C CNN
+F 1 "GNDREF" H 6655 2527 50  0000 C CNN
+F 2 "" H 6650 2700 50  0001 C CNN
+F 3 "" H 6650 2700 50  0001 C CNN
+	1    6650 2700
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5900 2950 6450 2950
+	6100 2700 6650 2700
 Wire Wire Line
 	4600 1550 4200 1550
 Text GLabel 4200 1450 0    50   Input ~ 0
@@ -356,32 +356,32 @@ Text GLabel 4200 1650 0    50   Input ~ 0
 PT2
 Text GLabel 4200 1750 0    50   Input ~ 0
 PT1
-Text GLabel 5350 1450 2    50   Input ~ 0
+Text GLabel 5500 1100 2    50   Input ~ 0
 PT4
-Text GLabel 5350 1550 2    50   Input ~ 0
+Text GLabel 5500 1200 2    50   Input ~ 0
 PT3
-Text GLabel 5350 1650 2    50   Input ~ 0
+Text GLabel 5500 1300 2    50   Input ~ 0
 PT2
-Text GLabel 5350 1750 2    50   Input ~ 0
+Text GLabel 5500 1400 2    50   Input ~ 0
 PT1
-Text GLabel 6200 2100 2    50   Input ~ 0
+Text GLabel 6400 1850 2    50   Input ~ 0
 PT1
 $Comp
 L Connector:Conn_01x02_Female J7
 U 1 1 5E10B3E5
-P 6000 2200
-F 0 "J7" H 6028 2176 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 6028 2085 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6000 2200 50  0001 C CNN
-F 3 "~" H 6000 2200 50  0001 C CNN
-	1    6000 2200
+P 6200 1950
+F 0 "J7" H 6092 1625 50  0000 C CNN
+F 1 "R_Limit" H 6092 1716 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6200 1950 50  0001 C CNN
+F 3 "~" H 6200 1950 50  0001 C CNN
+	1    6200 1950
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5900 2850 6200 2850
+	6100 2600 6400 2600
 Wire Wire Line
-	6200 2850 6200 2200
-Text GLabel 5900 2750 2    50   Input ~ 0
+	6400 2600 6400 1950
+Text GLabel 6100 2500 2    50   Input ~ 0
 D10
 Text GLabel 4200 4050 0    50   Input ~ 0
 A3
@@ -401,45 +401,45 @@ Connection ~ 4600 4250
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5E21CAD6
-P 6050 1200
-F 0 "H2" H 6150 1246 50  0000 L CNN
-F 1 "MountingHole" H 6150 1155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 6050 1200 50  0001 C CNN
-F 3 "~" H 6050 1200 50  0001 C CNN
-	1    6050 1200
+P 7000 1150
+F 0 "H2" H 7100 1196 50  0000 L CNN
+F 1 "MountingHole" H 7100 1105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 7000 1150 50  0001 C CNN
+F 3 "~" H 7000 1150 50  0001 C CNN
+	1    7000 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5E21CEB8
-P 6050 1400
-F 0 "H3" H 6150 1446 50  0000 L CNN
-F 1 "MountingHole" H 6150 1355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 6050 1400 50  0001 C CNN
-F 3 "~" H 6050 1400 50  0001 C CNN
-	1    6050 1400
+P 7000 1350
+F 0 "H3" H 7100 1396 50  0000 L CNN
+F 1 "MountingHole" H 7100 1305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 7000 1350 50  0001 C CNN
+F 3 "~" H 7000 1350 50  0001 C CNN
+	1    7000 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5E21D442
-P 6050 1600
-F 0 "H4" H 6150 1646 50  0000 L CNN
-F 1 "MountingHole" H 6150 1555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 6050 1600 50  0001 C CNN
-F 3 "~" H 6050 1600 50  0001 C CNN
-	1    6050 1600
+P 7000 1550
+F 0 "H4" H 7100 1596 50  0000 L CNN
+F 1 "MountingHole" H 7100 1505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 7000 1550 50  0001 C CNN
+F 3 "~" H 7000 1550 50  0001 C CNN
+	1    7000 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5E21D8B9
-P 6050 1000
-F 0 "H1" H 6150 1046 50  0000 L CNN
-F 1 "MountingHole" H 6150 955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 6050 1000 50  0001 C CNN
-F 3 "~" H 6050 1000 50  0001 C CNN
-	1    6050 1000
+P 7000 950
+F 0 "H1" H 7100 996 50  0000 L CNN
+F 1 "MountingHole" H 7100 905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 7000 950 50  0001 C CNN
+F 3 "~" H 7000 950 50  0001 C CNN
+	1    7000 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

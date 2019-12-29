@@ -1,4 +1,4 @@
-update=Sun 29 Dec 2019 11:23:43 AM EST
+update=Sun 29 Dec 2019 11:53:33 AM EST
 version=1
 last_client=kicad
 [general]
@@ -244,3 +244,13 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=/home/dwblair/gitwork/four-probe/v_0.9/feather_adapter/schematic/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
