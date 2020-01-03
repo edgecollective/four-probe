@@ -211,7 +211,7 @@ pinMode(lowswitchLED, OUTPUT);
 void loop() {
 
 int numsamples = 100;
-int sample_delay = 2; // milliseconds
+int sample_delay = 10; // milliseconds
 
 float gain = 1000.;
 
@@ -227,9 +227,10 @@ float gain = 1000.;
 // 4p 9 - 4 p 8
 // A0 - A 1
 
-float rsum = 0;
-float tisum = 0;
-float v23sum = 0;
+float rsum = 0.;
+float tisum = 0.;
+float v12sum = 0.;
+float v23sum = 0.;
 
 
 for (int i=0;i<numsamples;i++) {
@@ -246,31 +247,38 @@ for (int i=0;i<numsamples;i++) {
 
  float v12 = (float(v12c) - float(v12b))/4096.*3.3;
 
+ 
+ v12sum=v12sum + v12;
+ // Serial.print(v12);
+ //Serial.print(",");
+ 
  float v23 = (float(v23c) - float(v23b))/4096.*3.3;
- float v23sum=v23sum+v23;
- 
 
- float ti = (float(tic) - float(tib))/4096.*3.3;
- float tisum=tisum+ti;
  
- float r = float(v23)/float(ti)*gain;
- //Serial.println(r);
-
- rsum = rsum+r;
+ v23sum=v23sum+v23;
+  //Serial.print(v23sum);
+ //Serial.print(",");
+ 
+ float ti = (float(tic) - float(tib))/4096.*3.3 * gain;
+ 
+ tisum=tisum+ti;
+ //Serial.print(tisum);
+ //Serial.println();
  
  delay(sample_delay);
  
 }
 
-float rave = rsum / float(numsamples);
-float tiave = tisum / float(numsamples) * gain;
+float tiave = tisum / float(numsamples);
 float v23ave = v23sum / float(numsamples);
+float rave = v23ave / tiave;
 
-Serial.print(v23ave);
+Serial.print(tisum);
 Serial.print(",");
-Serial.print(tiave);
+Serial.print(tisum);
 Serial.print(",");
-Serial.println(rave);
+Serial.print(rave);
+Serial.println();
 
  /*
  Serial.print(v12);
