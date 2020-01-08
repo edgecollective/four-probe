@@ -259,7 +259,7 @@ for (int i=0;i<numsamples;i++) {
   //Serial.print(v23sum);
  //Serial.print(",");
  
- float ti = (float(tic) - float(tib))/4096.*3.3 / gain;
+ float ti = (float(tic) - float(tib))/4096.*3.3;
  
  tisum=tisum+ti;
  //Serial.print(tisum);
@@ -271,7 +271,7 @@ for (int i=0;i<numsamples;i++) {
 
 float tiave = tisum / float(numsamples);
 float v23ave = v23sum / float(numsamples);
-float rave = float(v23ave) / float(tiave);
+float rave = float(v23ave) / (float(tiave) / gain);
 
 Serial.print(v23ave,4);
 Serial.print(",");
