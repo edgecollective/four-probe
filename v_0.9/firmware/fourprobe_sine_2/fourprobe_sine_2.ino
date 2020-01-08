@@ -4,7 +4,7 @@
 int updateIndex = 0;
 int updateInterval = 1000;
 
-float myFrequency=1000;
+float myFrequency=10000;
 
 uint8_t  sine_wave[256] = {
   0x80, 0x83, 0x86, 0x89, 0x8C, 0x90, 0x93, 0x96,
@@ -104,11 +104,6 @@ void setup_timer(float freq4) {
     while (1) delay(10);
   }
 
-  //Serial.println("Timer 4:");
- // Serial.print("Divider:"); Serial.println(divider);
- // Serial.print("Compare:"); Serial.println(compare);
- // Serial.print("Final freq4:"); Serial.println((int)(48000000/compare));
-
   zt4.enable(false);
   zt4.configure(prescaler,       // prescaler
           TC_COUNTER_SIZE_16BIT,       // bit width of timer/counter
@@ -136,13 +131,16 @@ void loop() {
 int pot = analogRead(A1);
 updateIndex++;
 
+
 // update the frequency
 if (updateIndex > updateInterval) {
+
+zt4.enable(false);
 int out = map(pot,0,4096,1000,10000);
 setup_timer((float) out);
 updateIndex=0;
-}
 
+}
 
 
 analogWrite(A0, sine_wave[t]);
