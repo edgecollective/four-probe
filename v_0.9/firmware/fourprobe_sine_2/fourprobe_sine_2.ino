@@ -2,7 +2,7 @@
 #include "Adafruit_ZeroTimer.h" // https://github.com/dwblair/Adafruit_ZeroTimer
 
 int updateIndex = 0;
-int updateInterval = 1000;
+int updateInterval = 10000;
 
 float myFrequency=10000;
 
@@ -132,6 +132,7 @@ int pot = analogRead(A1);
 updateIndex++;
 
 
+
 // update the frequency
 if (updateIndex > updateInterval) {
 
@@ -139,7 +140,6 @@ zt4.enable(false);
 int out = map(pot,0,4096,1000,10000);
 setup_timer((float) out);
 updateIndex=0;
-
 }
 
 
